@@ -1,0 +1,443 @@
+{
+    "participants": {
+        "men": [
+            "barkin",
+            "burim",
+            "cris",
+            "deniz",
+            "joel",
+            "ken",
+            "kenneth",
+            "marwin",
+            "max",
+            "pascal",
+            "sasa"
+        ],
+        "women": [
+            "aurelia",
+            "carina",
+            "caroline",
+            "dorna",
+            "henna",
+            "juliette",
+            "larissa",
+            "stefanie",
+            "valeria",
+            "vanessa"
+        ]
+    },
+    "episodes": [
+        {
+            "number": 1,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "sasa",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "caroline"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 2,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "joel",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "aurelia"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 3,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "kenneth",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 4,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "ken",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 5,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "sasa",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 6,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "joel",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 7,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "kenneth",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "burim",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 8,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "burim",
+                        "woman": "valeria"
+                    },
+                    {
+                        "man": "kenneth",
+                        "woman": "carina"
+                    },
+                    {
+                        "man": "barkin",
+                        "woman": "juliette"
+                    },
+                    {
+                        "man": "pascal",
+                        "woman": "larissa"
+                    },
+                    {
+                        "man": "deniz",
+                        "woman": "henna"
+                    },
+                    {
+                        "man": "joel",
+                        "woman": "dorna"
+                    },
+                    {
+                        "man": "sasa",
+                        "woman": "vanessa"
+                    },
+                    {
+                        "man": "marwin",
+                        "woman": "aurelia"
+                    },
+                    {
+                        "man": "ken",
+                        "woman": "caroline"
+                    },
+                    {
+                        "man": "cris",
+                        "woman": "stefanie"
+                    }
+                ]
+            }
+        }
+    ],
+    "known_matching": {
+        "cris": "stefanie",
+        "ken": "caroline",
+        "deniz": "dorna",
+        "sasa": "dorna",
+        "marwin": "vanessa",
+        "pascal": "aurelia",
+        "kenneth": "henna",
+        "burim": "juliette",
+        "barkin": "larissa",
+        "joel": "valeria"
+    }
+}

@@ -1,0 +1,574 @@
+{
+    "participants": {
+        "men": [
+            "eti",
+            "gerrit",
+            "kevin",
+            "martin",
+            "paddy",
+            "paul",
+            "ryan",
+            "sandro",
+            "sidar",
+            "wilson"
+        ],
+        "women": [
+            "afra",
+            "edda",
+            "jana",
+            "julia",
+            "lina",
+            "lisa-marie",
+            "maja",
+            "mela",
+            "pia",
+            "shelly",
+            "sina",
+            "tais"
+        ]
+    },
+    "episodes": [
+        {
+            "number": 1,
+            "truth_booths": [
+                {
+                    "man": "paul",
+                    "woman": "jana",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "ryan",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "pia"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "edda"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 2,
+            "truth_booths": [
+                {
+                    "man": "ryan",
+                    "woman": "lina",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "martin",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "pia"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "shelly"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "maja"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 3,
+            "truth_booths": [
+                {
+                    "man": "kevin",
+                    "woman": "maja",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "kevin",
+                        "woman": "mela"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "lisa-marie"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 4,
+            "truth_booths": [
+                {
+                    "man": "eti",
+                    "woman": "mela",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "pia"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 5,
+            "truth_booths": [
+                {
+                    "man": "wilson",
+                    "woman": "shelly",
+                    "is_match": true
+                }
+            ],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "martin",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 6,
+            "truth_booths": [
+                {
+                    "man": "gerrit",
+                    "woman": "tais",
+                    "is_match": true
+                }
+            ],
+            "match_ceremony": {
+                "score": 5,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "martin",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "eti",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 7,
+            "truth_booths": [
+                {
+                    "man": "sandro",
+                    "woman": "sina",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 5,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "eti",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 8,
+            "truth_booths": [
+                {
+                    "man": "paul",
+                    "woman": "julia",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "eti",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 9,
+            "truth_booths": [
+                {
+                    "man": "sandro",
+                    "woman": "afra",
+                    "is_match": false
+                }
+            ],
+            "match_ceremony": {
+                "score": 6,
+                "blackout": false,
+                "pairs": [
+                    {"man": "paddy",     "woman": "sina"},
+                    {"man": "sandro",    "woman": "julia"},
+                    {"man": "paul",      "woman": "edda"},
+                    {"man": "ryan",      "woman": "jana"},
+                    {"man": "sidar",     "woman": "afra"},
+                    {"man": "martin",    "woman": "lisa-marie"},
+                    {"man": "kevin",     "woman": "lina"},
+                    {"man": "eti",       "woman": "maja"},
+                    {"man": "gerrit",    "woman": "tais"},
+                    {"man": "wilson",    "woman": "shelly"}
+                ]
+            }   
+        },
+        {
+            "number": 10,
+            "truth_booths": [
+                {
+                    "man": "kevin",
+                    "woman": "lina",
+                    "is_match": true
+                }
+            ],
+            "match_ceremony": {
+                "score": 7,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "eti",
+                        "woman": "maja"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "lina"
+                    },
+                    {
+                        "man": "martin",
+                        "woman": "afra"
+                    },
+                    {
+                        "man": "sandro",
+                        "woman": "julia"
+                    },
+                    {
+                        "man": "paddy",
+                        "woman": "jana"
+                    },
+                    {
+                        "man": "sidar",
+                        "woman": "lisa-marie"
+                    },
+                    {
+                        "man": "paul",
+                        "woman": "sina"
+                    },
+                    {
+                        "man": "ryan",
+                        "woman": "edda"
+                    },
+                    {
+                        "man": "gerrit",
+                        "woman": "tais"
+                    },
+                    {
+                        "man": "wilson",
+                        "woman": "shelly"
+                    }
+                ]
+            }
+        }
+    ],
+    "known_matching": {
+        "wilson": "shelly",
+        "gerrit": "tais",
+        "kevin": "lina",
+        "paul": "lisa-marie",
+        "ryan": "jana",
+        "eti": "maja",
+        "sandro": "julia",
+        "martin": "afra",
+        "paddy": "edda",
+        "sidar": "sina"
+    }
+}

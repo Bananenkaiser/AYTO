@@ -1,0 +1,114 @@
+{
+    "maenner": [
+        "eti", "gerrit", "kevin", "martin", "paddy", "paul", "ryan", "sandro", "sidar", "wilson"
+    ],
+    "frauen": [
+        "afra", "edda", "jana", "julia", "lina", "lisa-marie", "maja", "mela", "pia", "shelly", "sina", "tais"
+    ],
+    "matching_nights": [
+        {
+            "paarungen": [
+                ["lina", "ryan"], ["sina", "kevin"], ["tais", "paul"], ["jana", "sidar"], ["julia", "martin"], ["pia", "gerrit"], ["lisa-marie", "eti"], ["shelly", "wilson"], ["maja", "paddy"], ["edda", "sandro"]
+            ],
+            "uebrig_geblieben_frau": ["afra", "mela"],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["lina", "martin"], ["pia", "ryan"], ["edda", "sandro"], ["jana", "sidar"], ["shelly", "paddy"], ["sina", "kevin"], ["tais", "gerrit"], ["lisa-marie", "paul"], ["afra", "eti"], ["maja", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["julia", "mela"],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["mela", "kevin"], ["edda", "paul"], ["maja", "eti"], ["jana", "ryan"], ["julia", "paddy"], ["shelly", "wilson"], ["tais", "gerrit"], ["sina", "sandro"], ["afra", "sidar"], ["lisa-marie", "martin"]
+            ],
+            "uebrig_geblieben_frau": ["pia", "lina"],
+            "lichter": 4
+        },
+        {
+            "paarungen": [
+                ["tais", "gerrit"], ["lina", "paddy"], ["afra", "eti"], ["lisa-marie", "paul"], ["edda", "ryan"], ["sina", "kevin"], ["julia", "martin"], ["pia", "sandro"], ["jana", "sidar"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "maja"],
+            "lichter": 3
+        },
+        {
+            "paarungen": [
+                ["lisa-marie", "martin"], ["sina", "sandro"], ["jana", "ryan"], ["julia", "kevin"], ["maja", "eti"], ["afra", "sidar"], ["lina", "paddy"], ["edda", "paul"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 4
+        },
+        {
+            "paarungen": [
+                ["lisa-marie", "martin"], ["sina", "paul"], ["lina", "kevin"], ["maja", "eti"], ["afra", "sandro"], ["julia", "sidar"], ["jana", "ryan"], ["edda", "paddy"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 5
+        },
+        {
+            "paarungen": [
+                ["maja", "eti"], ["lina", "kevin"], ["afra", "martin"], ["julia", "sandro"], ["jana", "paddy"], ["lisa-marie", "sidar"], ["sina", "paul"], ["edda", "ryan"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 5
+        },
+        {
+            "paarungen": [
+                ["afra", "eti"], ["lina", "kevin"], ["edda", "ryan"], ["jana", "paddy"], ["sina", "paul"], ["lisa-marie", "martin"], ["julia", "sandro"], ["maja", "sidar"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 4
+        },
+        {
+            "paarungen": [
+                ["sina", "paddy"], ["julia", "sandro"], ["edda", "paul"], ["jana", "ryan"], ["afra", "sidar"], ["maja", "eti"], ["lina", "kevin"], ["lisa-marie", "martin"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 6
+        },
+        {
+            "paarungen": [
+                ["maja", "eti"], ["lina", "kevin"], ["afra", "martin"], ["julia", "sandro"], ["jana", "paddy"], ["lisa-marie", "sidar"], ["sina", "paul"], ["edda", "ryan"], ["tais", "gerrit"], ["shelly", "wilson"]
+            ],
+            "uebrig_geblieben_frau": ["mela", "pia"],
+            "lichter": 7
+        }
+    ],
+    "perfekt_matches": [
+        ["shelly", "wilson"], 
+        ["tais", "gerrit"], 
+        ["lina", "kevin"]
+    ],
+    "wahrscheinlich_perfekt_match": [
+    ],
+    "finale_paarung": [
+            ["shelly", "wilson"], 
+            ["tais", "gerrit"], 
+            ["lina", "kevin"], 
+            ["lisa-marie", "paul"], 
+            ["jana", "ryan"], 
+            ["maja", "eti"], 
+            ["julia", "sandro"], 
+            ["afra", "martin"], 
+            ["edda", "paddy"], 
+            ["sina", "sidar"]
+        
+    ],
+    "ausgeschlossene_paarungen": [
+        ["jana", "paul"], 
+        ["lina", "ryan"],
+        ["maja", "kevin"],
+        ["mela", "eti"],
+        ["sina", "sandro"],
+        ["julia", "paul"],
+        ["afra", "sandro"]
+    ],
+    "zusatz_matches": [
+        ["mela", "gerrit"], 
+        ["pia", "gerrit"]
+
+    ]
+}

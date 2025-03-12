@@ -1,0 +1,222 @@
+{
+    "maenner": [
+        "leon",
+        "mike",
+        "max",
+        "antonino",
+        "tim",
+        "dustin",
+        "william",
+        "marius",
+        "andre",
+        "jordi"
+    ],
+    "frauen": [
+        "jessica",
+        "joelina",
+        "kerstin",
+        "monami",
+        "marie",
+        "zaira",
+        "dana",
+        "isabelle",
+        "raphaela",
+        "estelle",
+        "desiree"
+    ],
+    "matching_nights": [
+        {
+            "paarungen": [
+                ["jessica", "leon"],
+                ["joelina", "mike"],
+                ["kerstin", "max"],
+                ["monami", "antonino"],
+                ["marie", "tim"],
+                ["zaira", "dustin"],
+                ["dana", "william"],
+                ["isabelle", "marius"],
+                ["raphaela", "andre"],
+                ["estelle", "jordi"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 3
+        },
+        {
+            "paarungen": [
+                ["dana", "andre"],
+                ["estelle", "leon"],
+                ["isabelle", "dustin"],
+                ["jessica", "tim"],
+                ["joelina", "mike"],
+                ["kerstin", "max"],
+                ["marie", "marius"],
+                ["monami", "antonino"],
+                ["raphaela", "william"],
+                ["zaira", "jordi"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["dana", "william"],
+                ["estelle", "leon"],
+                ["isabelle", "marius"],
+                ["jessica", "jordi"],
+                ["joelina", "mike"],
+                ["kerstin", "antonino"],
+                ["marie", "tim"],
+                ["monami", "max"],
+                ["raphaela", "andre"],
+                ["zaira", "dustin"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["dana", "william"],
+                ["estelle", "leon"],
+                ["isabelle", "andre"],
+                ["jessica", "marius"],
+                ["joelina", "mike"],
+                ["kerstin", "tim"],
+                ["marie", "max"],
+                ["monami", "antonino"],
+                ["raphaela", "jordi"],
+                ["zaira", "dustin"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 3
+        },
+        {
+            "paarungen": [
+                ["dana", "william"],
+                ["estelle", "mike"],
+                ["isabelle", "dustin"],
+                ["jessica", "leon"],
+                ["joelina", "andre"],
+                ["kerstin", "antonino"],
+                ["marie", ""],
+                ["monami", "max"],
+                ["raphaela", "marius"],
+                ["zaira", "jordi"],
+                ["desiree", "tim"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["dana", "antonino"],
+                ["estelle", "mike"],
+                ["isabelle", "dustin"],
+                ["jessica", "leon"],
+                ["joelina", "tim"],
+                ["kerstin", "max"],
+                ["marie", "andre"],
+                ["monami", ""],
+                ["raphaela", "william"],
+                ["zaira", "marius"],
+                ["desiree", "jordi"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 4
+        },
+        {
+            "paarungen": [
+                ["dana", "antonino"],
+                ["estelle", ""],
+                ["isabelle", "dustin"],
+                ["jessica", "leon"],
+                ["joelina", "mike"],
+                ["kerstin", "tim"],
+                ["marie", "max"],
+                ["monami", "jordi"],
+                ["raphaela", "william"],
+                ["zaira", "marius"],
+                ["desiree", "andre"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 6
+        },
+        {
+            "paarungen": [
+                ["dana", "antonino"],
+                ["estelle", "mike"],
+                ["isabelle", "dustin"],
+                ["jessica", "leon"],
+                ["joelina", "tim"],
+                ["kerstin", "max"],
+                ["marie", "andre"],
+                ["monami", "jordi"],
+                ["raphaela", "william"],
+                ["zaira", "marius"],
+                ["desiree", ""]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 4
+        },
+        {
+            "paarungen": [
+                ["dana", "dustin"],
+                ["estelle", "mike"],
+                ["isabelle", "antonino"],
+                ["jessica", "leon"],
+                ["joelina", "tim"],
+                ["kerstin", ""],
+                ["marie", "william"],
+                ["monami", "jordi"],
+                ["raphaela", "max"],
+                ["zaira", "marius"],
+                ["desiree", "andre"]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                ["dana", "antonino"],
+                ["estelle", "jordi"],
+                ["isabelle", "andre"],
+                ["jessica", "leon"],
+                ["joelina", "mike"],
+                ["kerstin", "tim"],
+                ["marie", "dustin"],
+                ["monami", "max"],
+                ["raphaela", "william"],
+                ["zaira", "marius"],
+                ["desiree", ""]
+            ],
+            "uebrig_geblieben": [],
+            "lichter": 10
+        }
+    ],
+    "perfekt_matches": [
+        ["zaira", "marius"]
+    ],
+    "wahrscheinlich_perfekt_match": [
+    ],
+    "finale_paarung": [
+        ["dana", "antonino"],
+        ["estelle", "jordi"],
+        ["isabelle", "andre"],
+        ["jessica", "leon"],
+        ["joelina", "mike"],
+        ["kerstin", "tim"],
+        ["marie", "dustin"],
+        ["monami", "max"],
+        ["raphaela", "william"],
+        ["zaira", "marius"],
+        ["desiree", ""]
+    ],
+    "ausgeschlossene_paarungen": [
+        ["monami", "leon"],
+        ["raphaela", "andre"],
+        ["monami", "antonino"],
+        ["max", "jessica"],
+        ["jordi", "raphaela"],
+        ["isabelle", "dustin"]
+    ]
+
+}

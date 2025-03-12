@@ -1,0 +1,568 @@
+{
+    "participants": {
+        "men": [
+            "leon",
+            "mike",
+            "max",
+            "antonino",
+            "tim",
+            "dustin",
+            "william",
+            "marius",
+            "andre",
+            "jordi"
+        ],
+        "women": [
+            "jessica",
+            "joelina",
+            "kerstin",
+            "monami",
+            "marie",
+            "zaira",
+            "dana",
+            "isabelle",
+            "raphaela",
+            "estelle",
+            "desiree"
+        ]
+    },
+    "episodes": [
+        {
+            "number": 1,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "estelle"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 2,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "andre",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "zaira"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 3,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 4,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 5,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 6,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 7,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 6,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 8,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 9,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "dustin",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        },
+        {
+            "number": 10,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 10,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
+        }
+    ],
+    "known_matching": {
+        "marius": "zaira",
+        "antonino": "dana",
+        "jordi": "estelle",
+        "andre": "isabelle",
+        "leon": "jessica",
+        "mike": "joelina",
+        "tim": "kerstin",
+        "dustin": "marie",
+        "max": "monami",
+        "william": "raphaela",
+        "": "desiree"
+    }
+}

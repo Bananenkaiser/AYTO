@@ -1,0 +1,429 @@
+{
+    "maenner": [
+        "alex",
+        "antonino",
+        "chris",
+        "kaan",
+        "lars",
+        "lukas",
+        "marc-robin",
+        "nikola",
+        "ozan",
+        "tim"
+    ],
+    "frauen": [
+        "anastasia",
+        "asena",
+        "dana",
+        "emmy",
+        "gabriela",
+        "jennifer",
+        "laura l.",
+        "laura m.",
+        "linda",
+        "nadja",
+        "tara"
+    ],
+    "matching_nights": [
+        {
+            "paarungen": [
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "jennifer",
+                    "lukas"
+                ],
+                [
+                    "tara",
+                    "nikola"
+                ],
+                [
+                    "nadja",
+                    "lars"
+                ],
+                [
+                    "asena",
+                    "kaan"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ],
+                [
+                    "laura l.",
+                    "alex"
+                ],
+                [
+                    "anastasia",
+                    "marc-robin"
+                ],
+                [
+                    "gabriela",
+                    "ozan"
+                ],
+                [
+                    "laura m.",
+                    "antonino"
+                ]
+            ],
+            "uebrig_geblieben_frau": "dana",
+            "lichter": 2
+        },
+        {
+            "paarungen": [
+                [
+                    "dana",
+                    "antonino"
+                ],
+                [
+                    "jennifer",
+                    "alex"
+                ],
+                [
+                    "anastasia",
+                    "lars"
+                ],
+                [
+                    "nadja",
+                    "kaan"
+                ],
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "asena",
+                    "marc-robin"
+                ],
+                [
+                    "laura l.",
+                    "ozan"
+                ],
+                [
+                    "tara",
+                    "nikola"
+                ],
+                [
+                    "laura m.",
+                    "lukas"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben_frau": "gabriela",
+            "lichter": 3
+        },
+        {
+            "paarungen": [
+                [
+                    "jennifer",
+                    "kaan"
+                ],
+                [
+                    "anastasia",
+                    "alex"
+                ],
+                [
+                    "asena",
+                    "marc-robin"
+                ],
+                [
+                    "dana",
+                    "tim"
+                ],
+                [
+                    "nadja",
+                    "antonino"
+                ],
+                [
+                    "linda",
+                    "lukas"
+                ],
+                [
+                    "laura m.",
+                    "ozan"
+                ],
+                [
+                    "laura l.",
+                    "nikola"
+                ],
+                [
+                    "gabriela",
+                    "lars"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben_frau": "tara",
+            "lichter": 3
+        },
+        {
+            "paarungen": [
+                [
+                    "tara",
+                    "lars"
+                ],
+                [
+                    "laura m.",
+                    "ozan"
+                ],
+                [
+                    "nadja",
+                    "antonino"
+                ],
+                [
+                    "anastasia",
+                    "nikola"
+                ],
+                [
+                    "asena",
+                    "kaan"
+                ],
+                [
+                    "laura l.",
+                    "tim"
+                ],
+                [
+                    "gabriela",
+                    "lukas"
+                ],
+                [
+                    "jennifer",
+                    "alex"
+                ],
+                [
+                    "linda",
+                    "marc-robin"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben_frau": "dana",
+            "lichter": 1
+        },
+        {
+            "paarungen": [
+                [
+                    "dana",
+                    "ozan"
+                ],
+                [
+                    "anastasia",
+                    "marc-robin"
+                ],
+                [
+                    "tara",
+                    "kaan"
+                ],
+                [
+                    "asena",
+                    "antonino"
+                ],
+                [
+                    "laura l.",
+                    "nikola"
+                ],
+                [
+                    "gabriela",
+                    "alex"
+                ],
+                [
+                    "jennifer",
+                    "lukas"
+                ],
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "nadja",
+                    "lars"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben_frau": "laura m.",
+            "lichter": 5
+        },
+        {
+            "paarungen": [
+                [
+                    "jennifer",
+                    "lukas"
+                ],
+                [
+                    "laura m.",
+                    "marc-robin"
+                ],
+                [
+                    "tara",
+                    "kaan"
+                ],
+                [
+                    "dana",
+                    "lars"
+                ],
+                [
+                    "asena",
+                    "antonino"
+                ],
+                [
+                    "gabriela",
+                    "alex"
+                ],
+                [
+                    "anastasia",
+                    "ozan"
+                ],
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "nadja",
+                    "nikola"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben_frau": "laura l.",
+            "lichter": 6
+        },
+        {
+            "paarungen": [
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "dana",
+                    "lukas"
+                ],
+                [
+                    "gabriela",
+                    "alex"
+                ],
+                [
+                    "laura l.",
+                    "lars"
+                ],
+                [
+                    "asena",
+                    "antonino"
+                ],
+                [
+                    "tara",
+                    "kaan"
+                ],
+                [
+                    "nadja",
+                    "nikola"
+                ],
+                [
+                    "laura m.",
+                    "marc-robin"
+                ],
+                [
+                    "anastasia",
+                    "ozan"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben": "jennifer",
+            "lichter": 6
+        },
+        {
+            "paarungen": [
+                [
+                    "tara",
+                    "lukas"
+                ],
+                [
+                    "laura m.",
+                    "marc-robin"
+                ],
+                [
+                    "nadja",
+                    "nikola"
+                ],
+                [
+                    "jennifer",
+                    "kaan"
+                ],
+                [
+                    "gabriela",
+                    "alex"
+                ],
+                [
+                    "laura l.",
+                    "lars"
+                ],
+                [
+                    "asena",
+                    "antonino"
+                ],
+                [
+                    "linda",
+                    "tim"
+                ],
+                [
+                    "anastasia",
+                    "ozan"
+                ],
+                [
+                    "emmy",
+                    "chris"
+                ]
+            ],
+            "uebrig_geblieben": "dana",
+            "lichter": 7
+        }
+    ],
+    "perfekt_matches": [
+        [
+            "emmy",
+            "chris"
+        ],
+        [
+            "anastasia",
+            "ozan"
+        ],
+        [
+            "linda",
+            "tim"
+        ]
+    ],
+    "wahrscheinlich_perfekt_match": [
+    ],
+    "ausgeschlossene_paarungen": [
+        [
+            "laura l.",
+            "marc-robin"
+        ],
+        [
+            "asena",
+            "marc-robin"
+        ],
+        [
+            "jennifer",
+            "lukas"
+        ]
+    ]   
+}
+    
+
