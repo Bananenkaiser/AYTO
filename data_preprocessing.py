@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+DUMMY_PENALTY = 0
+
+
 
 
 def balance_participants(participants):
