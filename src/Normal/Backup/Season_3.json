@@ -1,224 +1,664 @@
 {
-    "maenner": [
-        "leon",
-        "mike",
-        "max",
-        "antonino",
-        "tim",
-        "dustin",
-        "william",
-        "marius",
-        "andre",
-        "jordi"
-    ],
-    "frauen": [
-        "jessica",
-        "joelina",
-        "kerstin",
-        "monami",
-        "marie",
-        "zaira",
-        "dana",
-        "isabelle",
-        "raphaela",
-        "estelle",
-        "desiree"
-    ],
-    "matching_nights": [
+    "participants": {
+        "men": [
+            "leon",
+            "mike",
+            "max",
+            "antonino",
+            "tim",
+            "dustin",
+            "william",
+            "marius",
+            "andre",
+            "jordi"
+        ],
+        "women": [
+            "jessica",
+            "joelina",
+            "kerstin",
+            "monami",
+            "marie",
+            "zaira",
+            "dana",
+            "isabelle",
+            "raphaela",
+            "estelle",
+            "desiree"
+        ]
+    },
+    "episodes": [
         {
-            "paarungen": [
-                ["jessica", "leon"],
-                ["joelina", "mike"],
-                ["kerstin", "max"],
-                ["monami", "antonino"],
-                ["marie", "tim"],
-                ["zaira", "dustin"],
-                ["dana", "william"],
-                ["isabelle", "marius"],
-                ["raphaela", "andre"],
-                ["estelle", "jordi"]
+            "number": 1,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                "man": "mike",
+                "woman": "jessica",
+                "is_match": false
+              }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 3
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "andre"],
-                ["estelle", "leon"],
-                ["isabelle", "dustin"],
-                ["jessica", "tim"],
-                ["joelina", "mike"],
-                ["kerstin", "max"],
-                ["marie", "marius"],
-                ["monami", "antonino"],
-                ["raphaela", "william"],
-                ["zaira", "jordi"]
+            "number": 2,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "leon",
+                    "woman": "monami",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 2
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "andre",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "william"],
-                ["estelle", "leon"],
-                ["isabelle", "marius"],
-                ["jessica", "jordi"],
-                ["joelina", "mike"],
-                ["kerstin", "antonino"],
-                ["marie", "tim"],
-                ["monami", "max"],
-                ["raphaela", "andre"],
-                ["zaira", "dustin"]
+            "number": 3,
+            "Verkaufsangebot": 20000,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "andre",
+                    "woman": "raphaela",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 2
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "william"],
-                ["estelle", "leon"],
-                ["isabelle", "andre"],
-                ["jessica", "marius"],
-                ["joelina", "mike"],
-                ["kerstin", "tim"],
-                ["marie", "max"],
-                ["monami", "antonino"],
-                ["raphaela", "jordi"],
-                ["zaira", "dustin"]
+            "number": 4,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "william",
+                    "woman": "dana",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 3
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "william"],
-                ["estelle", "mike"],
-                ["isabelle", "dustin"],
-                ["jessica", "leon"],
-                ["joelina", "andre"],
-                ["kerstin", "antonino"],
-                ["marie", ""],
-                ["monami", "max"],
-                ["raphaela", "marius"],
-                ["zaira", "jordi"],
-                ["desiree", "tim"]
+            "number": 5,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "antonino",
+                    "woman": "monami",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 2
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "william",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "antonino"],
-                ["estelle", "mike"],
-                ["isabelle", "dustin"],
-                ["jessica", "leon"],
-                ["joelina", "tim"],
-                ["kerstin", "max"],
-                ["marie", "andre"],
-                ["monami", ""],
-                ["raphaela", "william"],
-                ["zaira", "marius"],
-                ["desiree", "jordi"]
+            "number": 6,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "max",
+                    "woman": "jessica",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 4
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "antonino"],
-                ["estelle", ""],
-                ["isabelle", "dustin"],
-                ["jessica", "leon"],
-                ["joelina", "mike"],
-                ["kerstin", "tim"],
-                ["marie", "max"],
-                ["monami", "jordi"],
-                ["raphaela", "william"],
-                ["zaira", "marius"],
-                ["desiree", "andre"]
+            "number": 7,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "marius",
+                    "woman": "zaira",
+                    "is_match": true
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 6
+            "match_ceremony": {
+                "score": 6,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "antonino"],
-                ["estelle", "mike"],
-                ["isabelle", "dustin"],
-                ["jessica", "leon"],
-                ["joelina", "tim"],
-                ["kerstin", "max"],
-                ["marie", "andre"],
-                ["monami", "jordi"],
-                ["raphaela", "william"],
-                ["zaira", "marius"],
-                ["desiree", ""]
+            "number": 8,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "jordi",
+                    "woman": "raphaela",
+                    "is_match": false
+                }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 4
+            "match_ceremony": {
+                "score": 4,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "dustin"],
-                ["estelle", "mike"],
-                ["isabelle", "antonino"],
-                ["jessica", "leon"],
-                ["joelina", "tim"],
-                ["kerstin", ""],
-                ["marie", "william"],
-                ["monami", "jordi"],
-                ["raphaela", "max"],
-                ["zaira", "marius"],
-                ["desiree", "andre"]
+            "number": 9,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "max",
+                    "woman": "kerstin",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 2
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "dustin",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "antonino",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         },
         {
-            "paarungen": [
-                ["dana", "antonino"],
-                ["estelle", "jordi"],
-                ["isabelle", "andre"],
-                ["jessica", "leon"],
-                ["joelina", "mike"],
-                ["kerstin", "tim"],
-                ["marie", "dustin"],
-                ["monami", "max"],
-                ["raphaela", "william"],
-                ["zaira", "marius"],
-                ["desiree", ""]
+            "number": 10,
+            "Verkaufsangebot": null,
+            "verkauft": false,
+            "truth_booths": [
+                {
+                    "man": "dustin",
+                    "woman": "isabelle",
+                    "is_match": false
+                  }
             ],
-            "uebrig_geblieben": [],
-            "lichter": 10
+            "match_ceremony": {
+                "score": 10,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "antonino",
+                        "woman": "dana"
+                    },
+                    {
+                        "man": "jordi",
+                        "woman": "estelle"
+                    },
+                    {
+                        "man": "andre",
+                        "woman": "isabelle"
+                    },
+                    {
+                        "man": "leon",
+                        "woman": "jessica"
+                    },
+                    {
+                        "man": "mike",
+                        "woman": "joelina"
+                    },
+                    {
+                        "man": "tim",
+                        "woman": "kerstin"
+                    },
+                    {
+                        "man": "dustin",
+                        "woman": "marie"
+                    },
+                    {
+                        "man": "max",
+                        "woman": "monami"
+                    },
+                    {
+                        "man": "william",
+                        "woman": "raphaela"
+                    },
+                    {
+                        "man": "marius",
+                        "woman": "zaira"
+                    },
+                    {
+                        "man": "",
+                        "woman": "desiree"
+                    }
+                ]
+            }
         }
     ],
-    "perfekt_matches": [
-        ["zaira", "marius"]
-    ],
-    "wahrscheinlich_perfekt_match": [
-    ],
-    "finale_paarung": [
-        ["dana", "antonino"],
-        ["estelle", "jordi"],
-        ["isabelle", "andre"],
-        ["jessica", "leon"],
-        ["joelina", "mike"],
-        ["kerstin", "tim"],
-        ["marie", "dustin"],
-        ["monami", "max"],
-        ["raphaela", "william"],
-        ["zaira", "marius"],
-        ["desiree", ""]
-    ],
-    "ausgeschlossene_paarungen": [
-        ["jessica", "mike"],
-        ["monami", "leon"],
-        ["raphaela", "andre"],
-        ["monami", "antonino"],
-        ["jessica", "max"],
-        ["raphaela", "jordi"],
-        ["kerstin", "max"],
-        ["isabelle", "dustin"]
-    ]
-
+    "known_matching": {
+        "marius": "zaira",
+        "antonino": "dana",
+        "jordi": "estelle",
+        "andre": "isabelle",
+        "leon": "jessica",
+        "mike": "joelina",
+        "tim": "kerstin",
+        "dustin": "marie",
+        "max": "monami",
+        "william": "raphaela",
+        "": "desiree"
+    }
 }

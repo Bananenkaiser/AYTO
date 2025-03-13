@@ -1,961 +1,494 @@
 {
-    "maenner": [
-        "aleks",
-        "axel",
-        "dominic",
-        "edin",
-        "elisha",
-        "ferhat",
-        "juliano",
-        "kevin",
-        "laurin",
-        "mo",
-        "rene"
-    ],
-    "frauen": [
-        "aline",
-        "ivana",
-        "kathi",
-        "laura",
-        "luisa",
-        "madleine",
-        "melissa",
-        "michelle",
-        "nadine",
-        "sabrina"
-    ],
-    "matching_nights": [
+    "participants": {
+        "men": [
+            "aleks",
+            "axel",
+            "dominic",
+            "edin",
+            "elisha",
+            "ferhat",
+            "juliano",
+            "kevin",
+            "laurin",
+            "mo",
+            "rene"
+        ],
+        "women": [
+            "aline",
+            "ivana",
+            "kathi",
+            "laura",
+            "luisa",
+            "madleine",
+            "melissa",
+            "michelle",
+            "nadine",
+            "sabrina"
+        ]
+    },
+    "episodes": [
         {
-            "paarungen": [
-                [
-                    "luisa",
-                    "axel"
-                ],
-                [
-                    "kathi",
-                    "rene"
-                ],
-                [
-                    "nadine",
-                    "elisha"
-                ],
-                [
-                    "laura",
-                    "ferhat"
-                ],
-                [
-                    "madleine",
-                    "laurin"
-                ],
-                [
-                    "michelle",
-                    "mo"
-                ],
-                [
-                    "aline",
-                    "kevin"
-                ],
-                [
-                    "ivana",
-                    "juliano"
-                ],
-                [
-                    "melissa",
-                    "dominic"
-                ],
-                [
-                    "sabrina",
-                    "aleks"
+            "number": 1,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 1,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "axel",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "mo",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "sabrina"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                "edin"
-            ],
-            "lichter": 1
+            }
         },
         {
-            "paarungen": [
-                [
-                    "ivana",
-                    "elisha"
-                ],
-                [
-                    "kathi",
-                    "kevin"
-                ],
-                [
-                    "michelle",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "nadine",
-                    "aleks"
-                ],
-                [
-                    "aline",
-                    "ferhat"
-                ],
-                [
-                    "luisa",
-                    "rene"
-                ],
-                [
-                    "sabrina",
-                    "dominic"
-                ],
-                [
-                    "laura",
-                    "juliano"
-                ],
-                [
-                    "madleine",
-                    "axel"
+            "number": 2,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "elisha",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "mo",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "madleine"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 2
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "kathi",
-                    "kevin"
-                ],
-                [
-                    "sabrina",
-                    "dominic"
-                ],
-                [
-                    "nadine",
-                    "aleks"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "madleine",
-                    "axel"
-                ],
-                [
-                    "michelle",
-                    "ferhat"
-                ],
-                [
-                    "luisa",
-                    "rene"
-                ],
-                [
-                    "ivana",
-                    "elisha"
-                ],
-                [
-                    "laura",
-                    "juliano"
+            "number": 3,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 3,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 3
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "laura",
-                    "kevin"
-                ],
-                [
-                    "michelle",
-                    "elisha"
-                ],
-                [
-                    "kathi",
-                    "juliano"
-                ],
-                [
-                    "nadine",
-                    "dominic"
-                ],
-                [
-                    "sabrina",
-                    "aleks"
-                ],
-                [
-                    "ivana",
-                    "axel"
-                ],
-                [
-                    "madleine",
-                    "ferhat"
-                ],
-                [
-                    "luisa",
-                    "rene"
+            "number": 4,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 2,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "luisa"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 2
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "luisa",
-                    "ferhat"
-                ],
-                [
-                    "sabrina",
-                    "elisha"
-                ],
-                [
-                    "nadine",
-                    "rene"
-                ],
-                [
-                    "kathi",
-                    "kevin"
-                ],
-                [
-                    "laura",
-                    "juliano"
-                ],
-                [
-                    "madleine",
-                    "aleks"
-                ],
-                [
-                    "michelle",
-                    "axel"
-                ],
-                [
-                    "ivana",
-                    "dominic"
+            "number": 5,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 5,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "ivana"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 5
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "michelle",
-                    "rene"
-                ],
-                [
-                    "nadine",
-                    "elisha"
-                ],
-                [
-                    "luisa",
-                    "axel"
-                ],
-                [
-                    "laura",
-                    "edin"
-                ],
-                [
-                    "kathi",
-                    "kevin"
-                ],
-                [
-                    "ivana",
-                    "juliano"
-                ],
-                [
-                    "madleine",
-                    "aleks"
-                ],
-                [
-                    "sabrina",
-                    "dominic"
+            "number": 6,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 5,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "edin",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "sabrina"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                "ferhat"
-            ],
-            "lichter": 5
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "michelle",
-                    "rene"
-                ],
-                [
-                    "nadine",
-                    "ferhat"
-                ],
-                [
-                    "kathi",
-                    "elisha"
-                ],
-                [
-                    "laura",
-                    "juliano"
-                ],
-                [
-                    "sabrina",
-                    "dominic"
-                ],
-                [
-                    "madleine",
-                    "aleks"
-                ],
-                [
-                    "luisa",
-                    "axel"
-                ],
-                [
-                    "ivana",
-                    "kevin"
+            "number": 7,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 5,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "ivana"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                "edin"
-            ],
-            "lichter": 5
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "michelle",
-                    "rene"
-                ],
-                [
-                    "laura",
-                    "juliano"
-                ],
-                [
-                    "nadine",
-                    "ferhat"
-                ],
-                [
-                    "madleine",
-                    "edin"
-                ],
-                [
-                    "kathi",
-                    "aleks"
-                ],
-                [
-                    "luisa",
-                    "axel"
-                ],
-                [
-                    "ivana",
-                    "kevin"
-                ],
-                [
-                    "sabrina",
-                    "dominic"
+            "number": 8,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 6,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "edin",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "aleks",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "sabrina"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                "elisha"
-            ],
-            "lichter": 6
+            }
         },
         {
-            "paarungen": [
-                [
-                    "aline",
-                    "mo"
-                ],
-                [
-                    "melissa",
-                    "laurin"
-                ],
-                [
-                    "michelle",
-                    "rene"
-                ],
-                [
-                    "sabrina",
-                    "elisha"
-                ],
-                [
-                    "ivana",
-                    "dominic"
-                ],
-                [
-                    "madleine",
-                    "kevin"
-                ],
-                [
-                    "luisa",
-                    "axel"
-                ],
-                [
-                    "kathi",
-                    "axel"
-                ],
-                [
-                    "nadine",
-                    "ferhat"
-                ],
-                [
-                    "laura",
-                    "juliano"
+            "number": 9,
+            "truth_booths": [],
+            "match_ceremony": {
+                "score": 7,
+                "blackout": false,
+                "pairs": [
+                    {
+                        "man": "mo",
+                        "woman": "aline"
+                    },
+                    {
+                        "man": "laurin",
+                        "woman": "melissa"
+                    },
+                    {
+                        "man": "rene",
+                        "woman": "michelle"
+                    },
+                    {
+                        "man": "elisha",
+                        "woman": "sabrina"
+                    },
+                    {
+                        "man": "dominic",
+                        "woman": "ivana"
+                    },
+                    {
+                        "man": "kevin",
+                        "woman": "madleine"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "luisa"
+                    },
+                    {
+                        "man": "axel",
+                        "woman": "kathi"
+                    },
+                    {
+                        "man": "ferhat",
+                        "woman": "nadine"
+                    },
+                    {
+                        "man": "juliano",
+                        "woman": "laura"
+                    }
                 ]
-            ],
-            "uebrig_geblieben": [
-                "edin"
-            ],
-            "lichter": 7
+            }
         }
     ],
-    "finale_paarung": [
-        [
-            "laura",
-            "aleks"
-        ],
-        [
-            "luisa",
-            "axel"
-        ],
-        [
-            "ivana",
-            "dominic"
-        ],
-        [
-            "sabrina",
-            "elisha"
-        ],
-        [
-            "nadine",
-            "ferhat"
-        ],
-        [
-            "madleine",
-            "juliano"
-        ],
-        [
-            "kathi",
-            "kevin"
-        ],
-        [
-            "melissa",
-            "laurin"
-        ],
-        [
-            "aline",
-            "mo"
-        ],
-        [
-            "michelle",
-            "rene"
-        ],
-        [
-            "madleine",
-            "edin"
-        ]
-    ],
-    "perfekt_matches": [
-        [
-            "aline",
-            "mo"
-        ],
-        [
-            "melissa",
-            "laurin"
-        ],
-        [
-            "michelle",
-            "rene"
-        ],
-        [
-            "kathi",
-            "kevin"
-        ]
-    ],
-    "wahrscheinlich_perfekt_match": [
-        [
-            "luisa",
-            "axel"
-        ],
-        [
-            "nadine",
-            "ferhat"
-        ],
-        [
-            "madleine",
-            "edin"
-        ],
-        [
-            "sabrina",
-            "elisha"
-        ],
-        [
-            "ivana",
-            "dominic"
-        ],
-        [
-            "madleine",
-            "aleks"
-        ]
-    ],
-    "ausgeschlossene_paarungen": [
-        [
-            "ivana",
-            "mo"
-        ],
-        [
-            "melissa",
-            "dominic"
-        ],
-        [
-            "ivana",
-            "elisha"
-        ],
-        [
-            "ivana",
-            "edin"
-        ],
-        [
-            "sabrina",
-            "axel"
-        ],
-        [
-            "luisa",
-            "ferhat"
-        ],
-        [
-            "aline",
-            "aleks"
-        ],
-        [
-            "kathi",
-            "aleks"
-        ],
-        [
-            "melissa",
-            "aleks"
-        ],
-        [
-            "michelle",
-            "aleks"
-        ],
-        [
-            "aline",
-            "axel"
-        ],
-        [
-            "kathi",
-            "axel"
-        ],
-        [
-            "melissa",
-            "axel"
-        ],
-        [
-            "michelle",
-            "axel"
-        ],
-        [
-            "aline",
-            "dominic"
-        ],
-        [
-            "kathi",
-            "dominic"
-        ],
-        [
-            "michelle",
-            "dominic"
-        ],
-        [
-            "aline",
-            "edin"
-        ],
-        [
-            "kathi",
-            "edin"
-        ],
-        [
-            "melissa",
-            "edin"
-        ],
-        [
-            "michelle",
-            "edin"
-        ],
-        [
-            "aline",
-            "elisha"
-        ],
-        [
-            "kathi",
-            "elisha"
-        ],
-        [
-            "melissa",
-            "elisha"
-        ],
-        [
-            "michelle",
-            "elisha"
-        ],
-        [
-            "aline",
-            "ferhat"
-        ],
-        [
-            "kathi",
-            "ferhat"
-        ],
-        [
-            "melissa",
-            "ferhat"
-        ],
-        [
-            "michelle",
-            "ferhat"
-        ],
-        [
-            "aline",
-            "juliano"
-        ],
-        [
-            "kathi",
-            "juliano"
-        ],
-        [
-            "melissa",
-            "juliano"
-        ],
-        [
-            "michelle",
-            "juliano"
-        ],
-        [
-            "aline",
-            "kevin"
-        ],
-        [
-            "ivana",
-            "kevin"
-        ],
-        [
-            "laura",
-            "kevin"
-        ],
-        [
-            "luisa",
-            "kevin"
-        ],
-        [
-            "madleine",
-            "kevin"
-        ],
-        [
-            "melissa",
-            "kevin"
-        ],
-        [
-            "michelle",
-            "kevin"
-        ],
-        [
-            "nadine",
-            "kevin"
-        ],
-        [
-            "sabrina",
-            "kevin"
-        ],
-        [
-            "aline",
-            "laurin"
-        ],
-        [
-            "ivana",
-            "laurin"
-        ],
-        [
-            "kathi",
-            "laurin"
-        ],
-        [
-            "laura",
-            "laurin"
-        ],
-        [
-            "luisa",
-            "laurin"
-        ],
-        [
-            "madleine",
-            "laurin"
-        ],
-        [
-            "michelle",
-            "laurin"
-        ],
-        [
-            "nadine",
-            "laurin"
-        ],
-        [
-            "sabrina",
-            "laurin"
-        ],
-        [
-            "kathi",
-            "mo"
-        ],
-        [
-            "laura",
-            "mo"
-        ],
-        [
-            "luisa",
-            "mo"
-        ],
-        [
-            "madleine",
-            "mo"
-        ],
-        [
-            "melissa",
-            "mo"
-        ],
-        [
-            "michelle",
-            "mo"
-        ],
-        [
-            "nadine",
-            "mo"
-        ],
-        [
-            "sabrina",
-            "mo"
-        ],
-        [
-            "aline",
-            "rene"
-        ],
-        [
-            "ivana",
-            "rene"
-        ],
-        [
-            "kathi",
-            "rene"
-        ],
-        [
-            "laura",
-            "rene"
-        ],
-        [
-            "luisa",
-            "rene"
-        ],
-        [
-            "madleine",
-            "rene"
-        ],
-        [
-            "melissa",
-            "rene"
-        ],
-        [
-            "nadine",
-            "rene"
-        ],
-        [
-            "sabrina",
-            "rene"
-        ],
-        [
-            "nadine",
-            "dominic"
-        ],
-        [
-            "sabrina",
-            "aleks"
-        ],
-        [
-            "ivana",
-            "axel"
-        ],
-        [
-            "madleine",
-            "ferhat"
-        ],
-        [
-            "sabrina",
-            "dominic"
-        ],
-        [
-            "nadine",
-            "aleks"
-        ],
-        [
-            "madleine",
-            "axel"
-        ],
-        [
-            "laura",
-            "juliano"
-        ],
-        [
-            "luisa",
-            "aleks"
-        ],
-        [
-            "laura",
-            "axel"
-        ],
-        [
-            "nadine",
-            "axel"
-        ],
-        [
-            "luisa",
-            "dominic"
-        ],
-        [
-            "luisa",
-            "edin"
-        ],
-        [
-            "luisa",
-            "elisha"
-        ],
-        [
-            "luisa",
-            "juliano"
-        ],
-        [
-            "nadine",
-            "elisha"
-        ],
-        [
-            "laura",
-            "ferhat"
-        ],
-        [
-            "ivana",
-            "juliano"
-        ],
-        [
-            "laura",
-            "edin"
-        ],
-        [
-            "madleine",
-            "aleks"
-        ],
-        [
-            "ivana",
-            "aleks"
-        ],
-        [
-            "laura",
-            "aleks"
-        ],
-        [
-            "laura",
-            "dominic"
-        ],
-        [
-            "madleine",
-            "dominic"
-        ],
-        [
-            "madleine",
-            "edin"
-        ],
-        [
-            "nadine",
-            "edin"
-        ],
-        [
-            "sabrina",
-            "edin"
-        ],
-        [
-            "laura",
-            "elisha"
-        ],
-        [
-            "madleine",
-            "elisha"
-        ],
-        [
-            "ivana",
-            "ferhat"
-        ],
-        [
-            "sabrina",
-            "ferhat"
-        ],
-        [
-            "madleine",
-            "juliano"
-        ],
-        [
-            "nadine",
-            "juliano"
-        ],
-        [
-            "sabrina",
-            "juliano"
-        ]
-    ]
+    "known_matching": {
+        "mo": "aline",
+        "laurin": "melissa",
+        "rene": "michelle",
+        "kevin": "kathi",
+        "aleks": "laura",
+        "axel": "luisa",
+        "dominic": "ivana",
+        "elisha": "sabrina",
+        "ferhat": "nadine",
+        "juliano": "madleine",
+        "edin": "madleine"
+    }
 }
