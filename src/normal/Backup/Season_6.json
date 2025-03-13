@@ -1,0 +1,163 @@
+{
+    "participants": {
+      "men": ["danish", "dino", "dion", "enes","josh","joshua","kaan", "levin", "sinan", "tano"],
+      "women": ["anna", "camelia", "chiara", "deisy", "ina", "joanna", "nadja", "nasti", "selina", "sophia", "tori"]
+    },
+    "episodes": [
+      {
+        "number": 2,
+        "truth_booths": [
+          {
+            "man": "josh",
+            "woman": "anna",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 3,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 2,
+          "blackout": false,
+          "no_pair:": "nasti",
+          "pairs": [
+            { "man": "dino", "woman": "deisy" },
+            { "man": "sinan", "woman": "ina" },
+            { "man": "kaan", "woman": "joanna" },
+            { "man": "dion", "woman": "tori" },
+            { "man": "enes", "woman": "anna" },
+            { "man": "danish", "woman": "sophia" },
+            { "man": "joshua", "woman": "selina" },
+            { "man": "levin", "woman": "camelia" },
+            { "man": "josh", "woman": "nadja" },
+            { "man": "tano", "woman": "chiara" }
+          ]
+        }
+      },
+      {
+        "number": 4,
+        "truth_booths": null,
+        "match_ceremony": null
+      },
+      {
+        "number": 5,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 3,
+          "blackout": false,
+          "no_pair:": "sophia",
+          "pairs": [
+            { "man": "dino", "woman": "deisy" },
+            { "man": "sinan", "woman": "ina" },
+            { "man": "kaan", "woman": "anna" },
+            { "man": "dion", "woman": "selina" },
+            { "man": "enes", "woman": "nasti" },
+            { "man": "danish", "woman": "camelia" },
+            { "man": "joshua", "woman": "joanna" },
+            { "man": "levin", "woman": "chiara" },
+            { "man": "josh", "woman": "nadja" },
+            { "man": "tano", "woman": "tori" }
+          ]
+        }
+      },
+      {
+        "number": 6,
+        "truth_booths": [
+          {
+            "man": "sinan",
+            "woman": "ina",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 7,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 4,
+          "blackout": false,
+          "no_pair:": "ina",
+          "pairs": [
+            { "man": "dino", "woman": "deisy" },
+            { "man": "sinan", "woman": "nasti" },
+            { "man": "kaan", "woman": "anna" },
+            { "man": "dion", "woman": "chiara" },
+            { "man": "enes", "woman": "selina" },
+            { "man": "danish", "woman": "sophia" },
+            { "man": "joshua", "woman": "joanna" },
+            { "man": "levin", "woman": "camelia" },
+            { "man": "josh", "woman": "nadja" },
+            { "man": "tano", "woman": "tori" }
+          ]
+        }
+      },
+      {
+        "number": 8,
+        "truth_booths": [
+          {
+            "man": "danish",
+            "woman": "nadja",
+            "is_match": true
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 9,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 4,
+          "blackout": false,
+          "no_pair:": "chiara",
+          "pairs": [
+            { "man": "sinan", "woman": "sophia" },
+            { "man": "kaan", "woman": "anna" },
+            { "man": "dion", "woman": "nasti" },
+            { "man": "enes", "woman": "selina" },            
+            { "man": "joshua", "woman": "joanna" },
+            { "man": "levin", "woman": "camelia" },
+            { "man": "josh", "woman": "ina" },
+            { "man": "tano", "woman": "tori" },
+            { "man": "danish", "woman": "nadja" },
+            { "man": "dino", "woman": "deisy" }
+          ]
+        }
+      },
+      {
+        "number": 10,
+        "truth_booths": [
+          {
+            "man": "dino",
+            "woman": "deisy",
+            "is_match": true
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 11,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 4,
+          "blackout": false,
+          "no_pair:": "anna",
+          "pairs": [                       
+            { "man": "sinan", "woman": "nasti" },
+            { "man": "kaan", "woman": "sophia" },
+            { "man": "dion", "woman": "chiara" },
+            { "man": "enes", "woman": "selina" },            
+            { "man": "joshua", "woman": "joanna" },
+            { "man": "levin", "woman": "camelia" },
+            { "man": "josh", "woman": "ina" },
+            { "man": "tano", "woman": "tori" },
+            { "man": "danish", "woman": "nadja" },
+            { "man": "dino", "woman": "deisy" }
+          ]
+        }
+      }           
+    ]
+  }
+  

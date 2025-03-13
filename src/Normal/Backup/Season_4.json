@@ -1,853 +1,307 @@
 {
-    "maenner": [
-        "barkin",
-        "burim",
-        "cris",
-        "deniz",
-        "joel",
-        "ken",
-        "kenneth",
-        "marwin",
-        "max",
-        "pascal",
-        "sasa"
-    ],
-    "frauen": [
-        "aurelia",
-        "carina",
-        "caroline",
-        "dorna",
-        "henna",
-        "juliette",
-        "larissa",
-        "stefanie",
-        "valeria",
-        "vanessa"
-    ],
-    "matching_nights": [
-        {
-            "paarungen": [
-                [
-                    "vanessa",
-                    "sasa"
-                ],
-                [
-                    "carina",
-                    "ken"
-                ],
-                [
-                    "henna",
-                    "kenneth"
-                ],
-                [
-                    "juliette",
-                    "burim"
-                ],
-                [
-                    "larissa",
-                    "joel"
-                ],
-                [
-                    "aurelia",
-                    "deniz"
-                ],
-                [
-                    "dorna",
-                    "marwin"
-                ],
-                [
-                    "valeria",
-                    "max"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ],
-                [
-                    "caroline",
-                    "barkin"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "pascal"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "larissa",
-                    "joel"
-                ],
-                [
-                    "juliette",
-                    "barkin"
-                ],
-                [
-                    "henna",
-                    "kenneth"
-                ],
-                [
-                    "carina",
-                    "ken"
-                ],
-                [
-                    "vanessa",
-                    "sasa"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ],
-                [
-                    "dorna",
-                    "marwin"
-                ],
-                [
-                    "valeria",
-                    "pascal"
-                ],
-                [
-                    "caroline",
-                    "max"
-                ],
-                [
-                    "aurelia",
-                    "burim"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "deniz"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "aurelia",
-                    "kenneth"
-                ],
-                [
-                    "valeria",
-                    "max"
-                ],
-                [
-                    "caroline",
-                    "pascal"
-                ],
-                [
-                    "carina",
-                    "sasa"
-                ],
-                [
-                    "vanessa",
-                    "marwin"
-                ],
-                [
-                    "dorna",
-                    "deniz"
-                ],
-                [
-                    "larissa",
-                    "joel"
-                ],
-                [
-                    "juliette",
-                    "barkin"
-                ],
-                [
-                    "henna",
-                    "ken"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "burim"
-            ],
-            "lichter": 2
-        },
-        {
-            "paarungen": [
-                [
-                    "henna",
-                    "ken"
-                ],
-                [
-                    "carina",
-                    "pascal"
-                ],
-                [
-                    "vanessa",
-                    "sasa"
-                ],
-                [
-                    "larissa",
-                    "deniz"
-                ],
-                [
-                    "dorna",
-                    "burim"
-                ],
-                [
-                    "juliette",
-                    "kenneth"
-                ],
-                [
-                    "aurelia",
-                    "marwin"
-                ],
-                [
-                    "valeria",
-                    "joel"
-                ],
-                [
-                    "caroline",
-                    "max"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "barkin"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "vanessa",
-                    "sasa"
-                ],
-                [
-                    "juliette",
-                    "barkin"
-                ],
-                [
-                    "carina",
-                    "pascal"
-                ],
-                [
-                    "henna",
-                    "kenneth"
-                ],
-                [
-                    "aurelia",
-                    "marwin"
-                ],
-                [
-                    "dorna",
-                    "burim"
-                ],
-                [
-                    "valeria",
-                    "joel"
-                ],
-                [
-                    "larissa",
-                    "deniz"
-                ],
-                [
-                    "caroline",
-                    "ken"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "max"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "vanessa",
-                    "joel"
-                ],
-                [
-                    "carina",
-                    "sasa"
-                ],
-                [
-                    "juliette",
-                    "barkin"
-                ],
-                [
-                    "henna",
-                    "kenneth"
-                ],
-                [
-                    "dorna",
-                    "deniz"
-                ],
-                [
-                    "larissa",
-                    "marwin"
-                ],
-                [
-                    "aurelia",
-                    "burim"
-                ],
-                [
-                    "valeria",
-                    "pascal"
-                ],
-                [
-                    "caroline",
-                    "ken"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "max"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "juliette",
-                    "kenneth"
-                ],
-                [
-                    "vanessa",
-                    "deniz"
-                ],
-                [
-                    "dorna",
-                    "barkin"
-                ],
-                [
-                    "henna",
-                    "burim"
-                ],
-                [
-                    "carina",
-                    "marwin"
-                ],
-                [
-                    "aurelia",
-                    "joel"
-                ],
-                [
-                    "valeria",
-                    "pascal"
-                ],
-                [
-                    "larissa",
-                    "sasa"
-                ],
-                [
-                    "caroline",
-                    "ken"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "max"
-            ],
-            "lichter": 2
-        },
-        {
-            "paarungen": [
-                [
-                    "valeria",
-                    "burim"
-                ],
-                [
-                    "carina",
-                    "kenneth"
-                ],
-                [
-                    "juliette",
-                    "barkin"
-                ],
-                [
-                    "larissa",
-                    "pascal"
-                ],
-                [
-                    "henna",
-                    "deniz"
-                ],
-                [
-                    "dorna",
-                    "joel"
-                ],
-                [
-                    "vanessa",
-                    "sasa"
-                ],
-                [
-                    "aurelia",
-                    "marwin"
-                ],
-                [
-                    "caroline",
-                    "ken"
-                ],
-                [
-                    "stefanie",
-                    "cris"
-                ]
-            ],
-            "uebrig_geblieben_frau": [
-                "max"
-            ],
-            "lichter": 2
+    "participants": {
+      "men": ["barkin", "burim", "cris", "deniz","joel","ken","kenneth", "marwin", "max", "pascal", "sasa"],
+      "women": ["aurelia", "carina", "caroline", "dorna", "henna", "juliette", "larissa", "stefanie", "valeria", "vanessa"]
+    },
+    
+    "episodes": [
+      {
+        "number": 1,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "marwin",
+            "woman": "valeria",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 2,        
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [          
+          {
+            "man": "kenneth",
+            "woman": "dorna",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": {
+          "score": 3,
+          "blackout": false,
+          "remaining": "pascal",
+          "pairs": [
+            { "man": "sasa", "woman": "vanessa" },
+            { "man": "ken", "woman": "carina" },
+            { "man": "kenneth", "woman": "henna" },
+            { "man": "burim", "woman": "juliette" },
+            { "man": "joel", "woman": "larissa" },
+            { "man": "deniz", "woman": "aurelia" },
+            { "man": "marwin", "woman": "dorna" },
+            { "man": "max", "woman": "valeria" },
+            { "man": "cris", "woman": "stefanie" },
+            { "man": "barkin", "woman": "caroline" }
+          ]
         }
+      },
+      {
+        "number": 3,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "burim",
+            "woman": "carina",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 4,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 3,
+          "blackout": false,
+          
+          "pairs": [
+            { "man": "joel", "woman": "larissa" },
+            { "man": "barkin", "woman": "juliette" },
+            { "man": "kenneth", "woman": "henna" },
+            { "man": "ken", "woman": "carina" },
+            { "man": "sasa", "woman": "vanessa" },
+            { "man": "cris", "woman": "stefanie" },
+            { "man": "marwin", "woman": "dorna" },
+            { "man": "pascal", "woman": "valeria" },
+            { "man": "max", "woman": "caroline" },
+            { "man": "burim", "woman": "aurelia" }
+          ]
+        }
+      },
+      {
+        "number": 5,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "cris",
+            "woman": "stefanie",
+            "is_match": true
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 6,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 2,
+          "blackout": false,
+          "pairs": [
+            { "man": "kenneth", "woman": "aurelia" },
+            { "man": "max", "woman": "valeria" },
+            { "man": "pascal", "woman": "caroline" },
+            { "man": "sasa", "woman": "carina" },
+            { "man": "marwin", "woman": "vanessa" },
+            { "man": "deniz", "woman": "dorna" },
+            { "man": "joel", "woman": "larissa" },
+            { "man": "barkin", "woman": "juliette" },
+            { "man": "ken", "woman": "henna" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 7,
+        "Verkaufsangebot": 20000,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "max",
+            "woman": "valeria",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 8,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 3,
+          "blackout": false,
+          "pairs": [
+            { "man": "ken", "woman": "henna" },
+            { "man": "pascal", "woman": "carina" },
+            { "man": "sasa", "woman": "vanessa" },
+            { "man": "deniz", "woman": "larissa" },
+            { "man": "burim", "woman": "dorna" },
+            { "man": "kenneth", "woman": "juliette" },
+            { "man": "marwin", "woman": "aurelia" },
+            { "man": "joel", "woman": "valeria" },
+            { "man": "max", "woman": "caroline" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 9,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "ken",
+            "woman": "caroline",
+            "is_match": true
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 10,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 4,
+          "blackout": false,
+          "pairs": [
+            { "man": "sasa", "woman": "vanessa" },
+            { "man": "barkin", "woman": "juliette" },
+            { "man": "pascal", "woman": "carina" },
+            { "man": "kenneth", "woman": "henna" },
+            { "man": "marwin", "woman": "aurelia" },
+            { "man": "burim", "woman": "dorna" },
+            { "man": "joel", "woman": "valeria" },
+            { "man": "deniz", "woman": "larissa" },
+            { "man": "ken", "woman": "caroline" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 11,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "burim",
+            "woman": "dorna",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 12,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 3,
+          "blackout": false,
+          "pairs": [
+            { "man": "joel", "woman": "vanessa" },
+            { "man": "sasa", "woman": "carina" },
+            { "man": "barkin", "woman": "juliette" },
+            { "man": "kenneth", "woman": "henna" },
+            { "man": "deniz", "woman": "dorna" },
+            { "man": "marwin", "woman": "larissa" },
+            { "man": "burim", "woman": "aurelia" },
+            { "man": "pascal", "woman": "valeria" },
+            { "man": "ken", "woman": "caroline" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 13,
+        "Verkaufsangebot": null,
+        "verkauft": false,
+        "truth_booths": [
+          {
+            "man": "joel",
+            "woman": "juliette",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 14,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 2,
+          "blackout": true,
+          "pairs": [
+            { "man": "kenneth", "woman": "juliette" },
+            { "man": "deniz", "woman": "vanessa" },
+            { "man": "barkin", "woman": "dorna" },
+            { "man": "burim", "woman": "henna" },
+            { "man": "marwin", "woman": "carina" },
+            { "man": "joel", "woman": "aurelia" },
+            { "man": "pascal", "woman": "valeria" },
+            { "man": "sasa", "woman": "larissa" },
+            { "man": "ken", "woman": "caroline" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 15,
+        "truth_booths": [
+          {
+            "man": "marwin",
+            "woman": "dorna",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      },
+      {
+        "number": 16,
+        "truth_booths": null,
+        "match_ceremony": {
+          "score": 2,
+          "blackout": true,
+          "pairs": [
+            { "man": "burim", "woman": "valeria" },
+            { "man": "kenneth", "woman": "carina" },
+            { "man": "barkin", "woman": "juliette" },
+            { "man": "pascal", "woman": "larissa" },
+            { "man": "deniz", "woman": "henna" },
+            { "man": "joel", "woman": "dorna" },
+            { "man": "sasa", "woman": "vanessa" },
+            { "man": "marwin", "woman": "aurelia" },
+            { "man": "ken", "woman": "caroline" },
+            { "man": "cris", "woman": "stefanie" }
+          ]
+        }
+      },
+      {
+        "number": 17,
+        "truth_booths": [
+          {
+            "man": "pascal",
+            "woman": "carina",
+            "is_match": false
+          }
+        ],
+        "match_ceremony": null
+      }                
     ],
-    "perfekt_matches": [
-        [
-            "stefanie",
-            "cris"
-        ],
-        [
-            "caroline",
-            "ken"
-        ],
-        [
-            "dorna",
-            "deniz"
-        ]
-    ],
-    "wahrscheinlich_perfekt_match": [
-        [
-            "vanessa",
-            "sasa"
-        ],
-        [
-            "aurelia",
-            "burim"
-        ],
-        [
-            "carina",
-            "pascal"
-        ]
-    ],
-    "finale_paarung": [
-        [
-            "stefanie",
-            "cris"
-        ],
-        [
-            "caroline",
-            "ken"
-        ],
-        [
-            "dorna",
-            "sasa"
-        ],
-        [
-            "vanessa",
-            "marwin"
-        ],
-        [
-            "aurelia",
-            "pascal"
-        ],
-        [
-            "henna",
-            "kenneth"
-        ],
-        [
-            "juliette",
-            "burim"
-        ],
-        [
-            "larissa",
-            "barkin"
-        ],
-        [
-            "valeria",
-            "joel"
-        ],
-        [
-            "carina",
-            "deniz"
-        ]
-    ],
-    "ausgeschlossene_paarungen": [
-        [
-            "valeria",
-            "marwin"
-        ],
-        [
-            "dorna",
-            "kenneth"
-        ],
-        [
-            "carina",
-            "burim"
-        ],
-        [
-            "valeria",
-            "max"
-        ],
-        [
-            "dorna",
-            "burim"
-        ],
-        [
-            "juliette",
-            "joel"
-        ],
-        [
-            "dorna",
-            "marwin"
-        ],
-        [
-            "dorna",
-            "pascal"
-        ],
-        [
-            "caroline",
-            "barkin"
-        ],
-        [
-            "stefanie",
-            "barkin"
-        ],
-        [
-            "caroline",
-            "burim"
-        ],
-        [
-            "stefanie",
-            "burim"
-        ],
-        [
-            "aurelia",
-            "cris"
-        ],
-        [
-            "carina",
-            "cris"
-        ],
-        [
-            "caroline",
-            "cris"
-        ],
-        [
-            "dorna",
-            "cris"
-        ],
-        [
-            "henna",
-            "cris"
-        ],
-        [
-            "juliette",
-            "cris"
-        ],
-        [
-            "larissa",
-            "cris"
-        ],
-        [
-            "valeria",
-            "cris"
-        ],
-        [
-            "vanessa",
-            "cris"
-        ],
-        [
-            "caroline",
-            "deniz"
-        ],
-        [
-            "stefanie",
-            "deniz"
-        ],
-        [
-            "caroline",
-            "joel"
-        ],
-        [
-            "stefanie",
-            "joel"
-        ],
-        [
-            "aurelia",
-            "ken"
-        ],
-        [
-            "carina",
-            "ken"
-        ],
-        [
-            "dorna",
-            "ken"
-        ],
-        [
-            "henna",
-            "ken"
-        ],
-        [
-            "juliette",
-            "ken"
-        ],
-        [
-            "larissa",
-            "ken"
-        ],
-        [
-            "stefanie",
-            "ken"
-        ],
-        [
-            "valeria",
-            "ken"
-        ],
-        [
-            "vanessa",
-            "ken"
-        ],
-        [
-            "caroline",
-            "kenneth"
-        ],
-        [
-            "stefanie",
-            "kenneth"
-        ],
-        [
-            "caroline",
-            "marwin"
-        ],
-        [
-            "stefanie",
-            "marwin"
-        ],
-        [
-            "caroline",
-            "max"
-        ],
-        [
-            "stefanie",
-            "max"
-        ],
-        [
-            "caroline",
-            "pascal"
-        ],
-        [
-            "stefanie",
-            "pascal"
-        ],
-        [
-            "caroline",
-            "sasa"
-        ],
-        [
-            "stefanie",
-            "sasa"
-        ],
-        [
-            "juliette",
-            "kenneth"
-        ],
-        [
-            "vanessa",
-            "deniz"
-        ],
-        [
-            "dorna",
-            "barkin"
-        ],
-        [
-            "henna",
-            "burim"
-        ],
-        [
-            "carina",
-            "marwin"
-        ],
-        [
-            "aurelia",
-            "joel"
-        ],
-        [
-            "valeria",
-            "pascal"
-        ],
-        [
-            "larissa",
-            "sasa"
-        ],
-        [
-            "valeria",
-            "burim"
-        ],
-        [
-            "carina",
-            "kenneth"
-        ],
-        [
-            "juliette",
-            "barkin"
-        ],
-        [
-            "larissa",
-            "pascal"
-        ],
-        [
-            "henna",
-            "deniz"
-        ],
-        [
-            "dorna",
-            "joel"
-        ],
-        [
-            "vanessa",
-            "sasa"
-        ],
-        [
-            "aurelia",
-            "marwin"
-        ],
-        [
-            "vanessa",
-            "barkin"
-        ],
-        [
-            "vanessa",
-            "burim"
-        ],
-        [
-            "vanessa",
-            "joel"
-        ],
-        [
-            "vanessa",
-            "kenneth"
-        ],
-        [
-            "vanessa",
-            "marwin"
-        ],
-        [
-            "vanessa",
-            "max"
-        ],
-        [
-            "vanessa",
-            "pascal"
-        ],
-        [
-            "aurelia",
-            "sasa"
-        ],
-        [
-            "carina",
-            "sasa"
-        ],
-        [
-            "dorna",
-            "sasa"
-        ],
-        [
-            "henna",
-            "sasa"
-        ],
-        [
-            "juliette",
-            "sasa"
-        ],
-        [
-            "valeria",
-            "sasa"
-        ],
-        [
-            "aurelia",
-            "barkin"
-        ],
-        [
-            "juliette",
-            "burim"
-        ],
-        [
-            "larissa",
-            "burim"
-        ],
-        [
-            "aurelia",
-            "deniz"
-        ],
-        [
-            "aurelia",
-            "kenneth"
-        ],
-        [
-            "aurelia",
-            "max"
-        ],
-        [
-            "aurelia",
-            "pascal"
-        ],
-        [
-            "larissa",
-            "joel"
-        ],
-        [
-            "henna",
-            "kenneth"
-        ],
-        [
-            "carina",
-            "barkin"
-        ],
-        [
-            "carina",
-            "deniz"
-        ],
-        [
-            "juliette",
-            "deniz"
-        ],
-        [
-            "larissa",
-            "deniz"
-        ],
-        [
-            "valeria",
-            "deniz"
-        ],
-        [
-            "carina",
-            "joel"
-        ],
-        [
-            "carina",
-            "max"
-        ],
-        [
-            "dorna",
-            "max"
-        ],
-        [
-            "henna",
-            "pascal"
-        ],
-        [
-            "juliette",
-            "pascal"
-        ]
-    ]
-}
+    "known_matching": {
+        "barkin": "larissa",
+        "burim": "juliette",
+        "cris": "stefanie",
+        "deniz": "carina",
+        "joel": "valeria",
+        "ken": "caroline",
+        "kenneth": "henna",
+        "marwin": "vanessa",
+        "max": "caroline",
+        "pascal": "aurelia",
+        "sasa": "dorna"
+    
+      }
+  }
+  
