@@ -4,7 +4,7 @@ import numpy as np
 
 
 DUMMY_PENALTY = 0
-
+#season = "Season_6.json"
 
 
 
@@ -220,12 +220,12 @@ def preprocessing(season):
     probabilities = normalize_possible_pairs(probabilities, fixed, participants)
     
     # 6) Visualisierung (optional)
-    #plot_probability_matrix(probabilities, participants)
-    #pair_counts = count_pair_occurrences(data)
-    #print("\nHäufigkeit der Paare (über alle Match Ceremonies):")
-    #for pair, count in sorted(pair_counts.items(), key=lambda x: x[1], reverse=True):
-    #    print(f"{pair[0].capitalize()} - {pair[1].capitalize()}: {count} mal")
-    #plot_pair_counts(pair_counts)
+    plot_probability_matrix(probabilities, participants)
+    pair_counts = count_pair_occurrences(data)
+    print("\nHäufigkeit der Paare (über alle Match Ceremonies):")
+    for pair, count in sorted(pair_counts.items(), key=lambda x: x[1], reverse=True):
+        print(f"{pair[0].capitalize()} - {pair[1].capitalize()}: {count} mal")
+    plot_pair_counts(pair_counts)
     
     # Zusätzlich: Übergabe der Ceremonies
     return probabilities, fixed, participants, data.get('match_ceremonies', [])

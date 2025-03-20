@@ -48,6 +48,16 @@
       "is_match": true
     }
   ],
+  "truth_booths_sold": [
+    {
+      "man": "levin",
+      "woman": "camelia"
+    },
+    {
+      "man": "tano",
+      "woman": "tori"
+    }
+  ],
   "match_ceremonies": [
     {
       "score": 2,
@@ -273,6 +283,53 @@
         {
           "man": "tano",
           "woman": "tori"
+        },
+        {
+          "man": "danish",
+          "woman": "nadja"
+        },
+        {
+          "man": "dino",
+          "woman": "deisy"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "no_pair:": "joanna",
+      "pairs": [
+        {
+          "man": "dion",
+          "woman": "anna"
+        },
+        {
+          "man": "levin",
+          "woman": "chiara"
+        },
+        {
+          "man": "josh",
+          "woman": "nasti"
+        },
+        {
+          "man": "sinan",
+          "woman": "camelia"
+        },
+        {
+          "man": "kaan",
+          "woman": "sophia"
+        },
+        {
+          "man": "tano",
+          "woman": "tori"
+        },
+        {
+          "man": "enes",
+          "woman": "selina"
+        },
+        {
+          "man": "joshua",
+          "woman": "ina"
         },
         {
           "man": "danish",

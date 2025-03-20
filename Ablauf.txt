@@ -1,0 +1,5 @@
+1. Perfekt Matches müssen in der Lösung enthalten sein
+2. Ausgeschlossene Paarungen dürfen NICHT in der Lösung enthalten sein
+3. Vermeintliche Lösung wird mit den Matching_night vergleichen. 
+	Die Anzahl der gleichen Paarungen der Matching_night und der Lösung muss genau dem score entsprechen
+	Umso kleiner die Differenz, desto besser die Lösung
