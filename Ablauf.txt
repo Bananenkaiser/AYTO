@@ -3,3 +3,36 @@
 3. Vermeintliche Lösung wird mit den Matching_night vergleichen. 
 	Die Anzahl der gleichen Paarungen der Matching_night und der Lösung muss genau dem score entsprechen
 	Umso kleiner die Differenz, desto besser die Lösung
+
+
+Ergebnis ohne Penelty:
+
+Das durch A*-Suche gefundene optimale Matching ist:
+Danish - Nadja | 
+Dino - Deisy | 
+Dion - Anna | 
+Dummy_man_1 - Tori | 
+Enes - Nasti | 
+Josh - Camelia | 
+Joshua - Chiara | 
+Kaan - Selina | 
+Levin - Ina | 
+Sinan - Joanna | 
+Tano - Sophia | 
+Gesamtkosten: 2
+
+
+Das durch A*-Suche gefundene optimale Matching ist:
+Danish - Nadja
+Dino - Deisy
+Dion - Anna
+Dummy_man_1 - Tori
+Enes - Nasti
+Josh - Camelia
+Joshua - Chiara
+Kaan - Selina
+Levin - Ina
+Sinan - Joanna
+Tano - Sophia
+
+Gesamtkosten: 2

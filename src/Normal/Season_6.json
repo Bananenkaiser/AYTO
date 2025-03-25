@@ -46,6 +46,11 @@
       "man": "dino",
       "woman": "deisy",
       "is_match": true
+    },
+    {
+      "man": "kaan",
+      "woman": "sophia",
+      "is_match": false
     }
   ],
   "truth_booths_sold": [
@@ -330,6 +335,53 @@
         {
           "man": "joshua",
           "woman": "ina"
+        },
+        {
+          "man": "danish",
+          "woman": "nadja"
+        },
+        {
+          "man": "dino",
+          "woman": "deisy"
+        }
+      ]
+    },
+    {
+      "score": 6,
+      "blackout": false,
+      "no_pair:": "ina",
+      "pairs": [
+        {
+          "man": "tano",
+          "woman": "anna"
+        },
+        {
+          "man": "levin",
+          "woman": "chiara"
+        },
+        {
+          "man": "sinan",
+          "woman": "nasti"
+        },
+        {
+          "man": "josh",
+          "woman": "camelia"
+        },
+        {
+          "man": "kaan",
+          "woman": "selina"
+        },
+        {
+          "man": "dion",
+          "woman": "tori"
+        },
+        {
+          "man": "enes",
+          "woman": "sophia"
+        },
+        {
+          "man": "joshua",
+          "woman": "joanna"
         },
         {
           "man": "danish",
