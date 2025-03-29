@@ -53,16 +53,6 @@
       "is_match": false
     }
   ],
-  "truth_booths_sold": [
-    {
-      "man": "levin",
-      "woman": "camelia"
-    },
-    {
-      "man": "tano",
-      "woman": "tori"
-    }
-  ],
   "match_ceremonies": [
     {
       "score": 2,
