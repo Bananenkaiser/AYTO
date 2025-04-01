@@ -65,8 +65,9 @@ def find_valid_ayto_solutions(data, limit=1):
 # Ausführung
 # ------------------------------
 if __name__ == "__main__":
-    path = f".\\src\\normal\\"
-    season = "Season_6.json"
+    path = f".\\src\\vip\\"
+    #path = f".\\src\\normal\\"
+    season = "Season_4.json"
 
     with open(path + season, "r") as f:
         data = json.load(f)

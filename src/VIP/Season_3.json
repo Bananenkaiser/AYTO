@@ -1,5 +1,6 @@
 {
-    "maenner": [
+    "participants": {
+      "men": [
         "danilo",
         "elia",
         "emanuell",
@@ -11,8 +12,8 @@
         "peter",
         "steffen",
         "teezy"
-    ],
-    "frauen": [
+      ],
+      "women": [
         "alicia",
         "christina-shakira",
         "darya",
@@ -23,526 +24,214 @@
         "sabrina",
         "sandra",
         "steffi"
+      ]
+    },
+    "truth_booths": [
+      {
+        "man": "danilo",
+        "woman": "darya",
+        "is_match": true
+      },
+      {
+        "man": "emanuell",
+        "woman": "steffi",
+        "is_match": true
+      },
+      {
+        "man": "elia",
+        "woman": "alicia",
+        "is_match": true
+      },
+      {
+        "man": "danilo",
+        "woman": "jenny",
+        "is_match": false
+      },
+      {
+        "man": "elia",
+        "woman": "jenny",
+        "is_match": false
+      },
+      {
+        "man": "elia",
+        "woman": "darya",
+        "is_match": false
+      },
+      {
+        "man": "mike",
+        "woman": "kim-virgina",
+        "is_match": false
+      },
+      {
+        "man": "teezy",
+        "woman": "alicia",
+        "is_match": false
+      },
+      {
+        "man": "max",
+        "woman": "sabrina",
+        "is_match": false
+      }
     ],
-    "matching_nights": [
-        {
-            "paarungen": [
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "sandra",
-                    "paco"
-                ],
-                [
-                    "paulina",
-                    "steffen"
-                ],
-                [
-                    "christina-shakira",
-                    "marvin"
-                ],
-                [
-                    "kim-virgina",
-                    "mike"
-                ],
-                [
-                    "sabrina",
-                    "emanuell"
-                ],
-                [
-                    "jenny",
-                    "elia"
-                ],
-                [
-                    "marie",
-                    "fabio"
-                ],
-                [
-                    "steffi",
-                    "teezy"
-                ],
-                [
-                    "alicia",
-                    "peter"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "max"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "sabrina",
-                    "mike"
-                ],
-                [
-                    "paulina",
-                    "danilo"
-                ],
-                [
-                    "kim-virgina",
-                    "paco"
-                ],
-                [
-                    "alicia",
-                    "steffen"
-                ],
-                [
-                    "jenny",
-                    "marvin"
-                ],
-                [
-                    "steffi",
-                    "teezy"
-                ],
-                [
-                    "darya",
-                    "emanuell"
-                ],
-                [
-                    "marie",
-                    "fabio"
-                ],
-                [
-                    "christina-shakira",
-                    "peter"
-                ],
-                [
-                    "sandra",
-                    "elia"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "max"
-            ],
-            "lichter": 2
-        },
-        {
-            "paarungen": [
-                [
-                    "alicia",
-                    "steffen"
-                ],
-                [
-                    "sabrina",
-                    "peter"
-                ],
-                [
-                    "sandra",
-                    "paco"
-                ],
-                [
-                    "christina-shakira",
-                    "fabio"
-                ],
-                [
-                    "marie",
-                    "elia"
-                ],
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "steffi",
-                    "marvin"
-                ],
-                [
-                    "paulina",
-                    "mike"
-                ],
-                [
-                    "kim-virgina",
-                    "teezy"
-                ],
-                [
-                    "jenny",
-                    "emanuell"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "max"
-            ],
-            "lichter": 2
-        },
-        {
-            "paarungen": [
-                [
-                    "sandra",
-                    "steffen"
-                ],
-                [
-                    "paulina",
-                    "max"
-                ],
-                [
-                    "marie",
-                    "elia"
-                ],
-                [
-                    "alicia",
-                    "teezy"
-                ],
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "christina-shakira",
-                    "fabio"
-                ],
-                [
-                    "sabrina",
-                    "paco"
-                ],
-                [
-                    "kim-virgina",
-                    "peter"
-                ],
-                [
-                    "steffi",
-                    "emanuell"
-                ],
-                [
-                    "jenny",
-                    "marvin"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "mike"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "paulina",
-                    "mike"
-                ],
-                [
-                    "kim-virgina",
-                    "teezy"
-                ],
-                [
-                    "christina-shakira",
-                    "paco"
-                ],
-                [
-                    "steffi",
-                    "elia"
-                ],
-                [
-                    "jenny",
-                    "marvin"
-                ],
-                [
-                    "sandra",
-                    "max"
-                ],
-                [
-                    "alicia",
-                    "steffen"
-                ],
-                [
-                    "sabrina",
-                    "emanuell"
-                ],
-                [
-                    "marie",
-                    "fabio"
-                ],
-                [
-                    "darya",
-                    "danilo"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "peter"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "marie",
-                    "elia"
-                ],
-                [
-                    "steffi",
-                    "emanuell"
-                ],
-                [
-                    "christina-shakira",
-                    "fabio"
-                ],
-                [
-                    "kim-virgina",
-                    "teezy"
-                ],
-                [
-                    "jenny",
-                    "marvin"
-                ],
-                [
-                    "paulina",
-                    "mike"
-                ],
-                [
-                    "alicia",
-                    "paco"
-                ],
-                [
-                    "sabrina",
-                    "peter"
-                ],
-                [
-                    "sandra",
-                    "steffen"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "max"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "steffi",
-                    "elia"
-                ],
-                [
-                    "sabrina",
-                    "emanuell"
-                ],
-                [
-                    "alicia",
-                    "fabio"
-                ],
-                [
-                    "kim-virgina",
-                    "teezy"
-                ],
-                [
-                    "paulina",
-                    "marvin"
-                ],
-                [
-                    "christina-shakira",
-                    "max"
-                ],
-                [
-                    "sandra",
-                    "mike"
-                ],
-                [
-                    "jenny",
-                    "paco"
-                ],
-                [
-                    "alicia",
-                    "steffen"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "peter"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "marie",
-                    "elia"
-                ],
-                [
-                    "sabrina",
-                    "emanuell"
-                ],
-                [
-                    "sandra",
-                    "fabio"
-                ],
-                [
-                    "paulina",
-                    "teezy"
-                ],
-                [
-                    "jenny",
-                    "marvin"
-                ],
-                [
-                    "kim-virgina",
-                    "max"
-                ],
-                [
-                    "steffi",
-                    "mike"
-                ],
-                [
-                    "alicia",
-                    "paco"
-                ],
-                [
-                    "christina-shakira",
-                    "steffen"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "peter"
-            ],
-            "lichter": 1
-        },
-        {
-            "paarungen": [
-                [
-                    "darya",
-                    "danilo"
-                ],
-                [
-                    "sandra",
-                    "elia"
-                ],
-                [
-                    "steffi",
-                    "emanuell"
-                ],
-                [
-                    "marie",
-                    "fabio"
-                ],
-                [
-                    "kim-virgina",
-                    "teezy"
-                ],
-                [
-                    "christina-shakira",
-                    "marvin"
-                ],
-                [
-                    "jenny",
-                    "max"
-                ],
-                [
-                    "sabrina",
-                    "mike"
-                ],
-                [
-                    "paulina",
-                    "paco"
-                ],
-                [
-                    "alicia",
-                    "steffen"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "peter"
-            ],
-            "lichter": 6
-        }
+    "match_ceremonies": [
+      {
+        "pairs": [
+          {"man": "danilo", "woman": "darya"},
+          {"man": "paco", "woman": "sandra"},
+          {"man": "steffen", "woman": "paulina"},
+          {"man": "marvin", "woman": "christina-shakira"},
+          {"man": "mike", "woman": "kim-virgina"},
+          {"man": "emanuell", "woman": "sabrina"},
+          {"man": "elia", "woman": "jenny"},
+          {"man": "fabio", "woman": "marie"},
+          {"man": "teezy", "woman": "steffi"},
+          {"man": "peter", "woman": "alicia"}
+        ],
+        "score": 3,
+        "no_pair:": "max"
+      },
+      {
+        "pairs": [
+          {"man": "mike", "woman": "sabrina"},
+          {"man": "danilo", "woman": "paulina"},
+          {"man": "paco", "woman": "kim-virgina"},
+          {"man": "steffen", "woman": "alicia"},
+          {"man": "marvin", "woman": "jenny"},
+          {"man": "teezy", "woman": "steffi"},
+          {"man": "emanuell", "woman": "darya"},
+          {"man": "fabio", "woman": "marie"},
+          {"man": "peter", "woman": "christina-shakira"},
+          {"man": "elia", "woman": "sandra"}
+        ],
+        "score": 2,
+        "no_pair:": "max"
+      },
+      {
+        "pairs": [
+          {"man": "steffen", "woman": "alicia"},
+          {"man": "peter", "woman": "sabrina"},
+          {"man": "paco", "woman": "sandra"},
+          {"man": "fabio", "woman": "christina-shakira"},
+          {"man": "elia", "woman": "marie"},
+          {"man": "danilo", "woman": "darya"},
+          {"man": "marvin", "woman": "steffi"},
+          {"man": "mike", "woman": "paulina"},
+          {"man": "teezy", "woman": "kim-virgina"},
+          {"man": "emanuell", "woman": "jenny"}
+        ],
+        "score": 2,
+        "no_pair:": "max"
+      },
+      {
+        "pairs": [
+          {"man": "steffen", "woman": "sandra"},
+          {"man": "max", "woman": "paulina"},
+          {"man": "elia", "woman": "marie"},
+          {"man": "teezy", "woman": "alicia"},
+          {"man": "danilo", "woman": "darya"},
+          {"man": "fabio", "woman": "christina-shakira"},
+          {"man": "paco", "woman": "sabrina"},
+          {"man": "peter", "woman": "kim-virgina"},
+          {"man": "emanuell", "woman": "steffi"},
+          {"man": "marvin", "woman": "jenny"}
+        ],
+        "score": 4,
+        "no_pair:": "mike"
+      },
+      {
+        "pairs": [
+          {"man": "mike", "woman": "paulina"},
+          {"man": "teezy", "woman": "kim-virgina"},
+          {"man": "paco", "woman": "christina-shakira"},
+          {"man": "elia", "woman": "steffi"},
+          {"man": "marvin", "woman": "jenny"},
+          {"man": "max", "woman": "sandra"},
+          {"man": "steffen", "woman": "alicia"},
+          {"man": "emanuell", "woman": "sabrina"},
+          {"man": "fabio", "woman": "marie"},
+          {"man": "danilo", "woman": "darya"}
+        ],
+        "score": 3,
+        "no_pair:": "peter"
+      },
+      {
+        "pairs": [
+          {"man": "danilo", "woman": "darya"},
+          {"man": "elia", "woman": "marie"},
+          {"man": "emanuell", "woman": "steffi"},
+          {"man": "fabio", "woman": "christina-shakira"},
+          {"man": "teezy", "woman": "kim-virgina"},
+          {"man": "marvin", "woman": "jenny"},
+          {"man": "mike", "woman": "paulina"},
+          {"man": "paco", "woman": "alicia"},
+          {"man": "peter", "woman": "sabrina"},
+          {"man": "steffen", "woman": "sandra"}
+        ],
+        "score": 4,
+        "no_pair:": "max"
+      },
+      {
+        "pairs": [
+          {"man": "danilo", "woman": "darya"},
+          {"man": "elia", "woman": "steffi"},
+          {"man": "emanuell", "woman": "sabrina"},
+          {"man": "fabio", "woman": "alicia"},
+          {"man": "teezy", "woman": "kim-virgina"},
+          {"man": "marvin", "woman": "paulina"},
+          {"man": "max", "woman": "christina-shakira"},
+          {"man": "mike", "woman": "sandra"},
+          {"man": "paco", "woman": "jenny"},
+          {"man": "steffen", "woman": "alicia"}
+        ],
+        "score": 3,
+        "no_pair:": "peter"
+      },
+      {
+        "pairs": [
+          {"man": "danilo", "woman": "darya"},
+          {"man": "elia", "woman": "marie"},
+          {"man": "emanuell", "woman": "sabrina"},
+          {"man": "fabio", "woman": "sandra"},
+          {"man": "teezy", "woman": "paulina"},
+          {"man": "marvin", "woman": "jenny"},
+          {"man": "max", "woman": "kim-virgina"},
+          {"man": "mike", "woman": "steffi"},
+          {"man": "paco", "woman": "alicia"},
+          {"man": "steffen", "woman": "christina-shakira"}
+        ],
+        "score": 1,
+        "no_pair:": "peter"
+      },
+      {
+        "pairs": [
+          {"man": "danilo", "woman": "darya"},
+          {"man": "elia", "woman": "sandra"},
+          {"man": "emanuell", "woman": "steffi"},
+          {"man": "fabio", "woman": "marie"},
+          {"man": "teezy", "woman": "kim-virgina"},
+          {"man": "marvin", "woman": "christina-shakira"},
+          {"man": "max", "woman": "jenny"},
+          {"man": "mike", "woman": "sabrina"},
+          {"man": "paco", "woman": "paulina"},
+          {"man": "steffen", "woman": "alicia"}
+        ],
+        "score": 6,
+        "no_pair:": "peter"
+      }
     ],
     "finale_paarung": [
-        [
-            "darya",
-            "danilo"
-        ],
-        [
-            "steffi",
-            "emanuell"
-        ],
-        [
-            "alicia",
-            "elia"
-        ],
-        [
-            "christina-shakira",
-            "marvin"
-        ],
-        [
-            "jenny",
-            "paco"
-        ],
-        [
-            "kim-virgina",
-            "teezy"
-        ],
-        [
-            "marie",
-            "fabio"
-        ],
-        [
-            "sabrina",
-            "mike"
-        ],
-        [
-            "sandra",
-            "steffen"
-        ],
-        [
-            "paulina",
-            "peter"
-        ],
-        [
-            "paulina",
-            "max"
-        ]
-    ],
-    "perfekt_matches": [
-        [
-            "darya",
-            "danilo"
-        ],
-        [
-            "steffi",
-            "emanuell"
-        ],
-        [
-            "alicia",
-            "elia"
-        ]
-    ],
-    "wahrscheinlich_perfekt_match": [],
-    "ausgeschlossene_paarungen": [
-        [
-            "jenny",
-            "danilo"
-        ],
-        [
-            "jenny",
-            "elia"
-        ],
-        [
-            "darya",
-            "elia"
-        ],
-        [
-            "kim-virgina",
-            "mike"
-        ],
-        [
-            "alicia",
-            "teezy"
-        ],
-        [
-            "sabrina",
-            "max"
-        ]
+      ["darya", "danilo"],
+      ["steffi", "emanuell"],
+      ["alicia", "elia"],
+      ["christina-shakira", "marvin"],
+      ["jenny", "paco"],
+      ["kim-virgina", "teezy"],
+      ["marie", "fabio"],
+      ["sabrina", "mike"],
+      ["sandra", "steffen"],
+      ["paulina", "peter"],
+      ["paulina", "max"]
     ]
-}
+
+  }
+  

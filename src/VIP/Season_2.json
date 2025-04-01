@@ -1,5 +1,6 @@
 {
-    "maenner": [
+    "participants": {
+      "men": [
         "amadu",
         "calvin",
         "fabio",
@@ -11,8 +12,8 @@
         "max",
         "micha",
         "pharrell"
-    ],
-    "frauen": [
+      ],
+      "women": [
         "anna",
         "cecilia",
         "celina",
@@ -23,875 +24,189 @@
         "luisa",
         "ricarda",
         "zoe"
+      ]
+    },
+    "truth_booths": [
+      {
+        "man": "amadu",
+        "woman": "cecilia",
+        "is_match": true
+      },
+      {
+        "man": "micha",
+        "woman": "anna",
+        "is_match": true
+      },
+      {
+        "man": "lukas",
+        "woman": "luisa",
+        "is_match": true
+      },
+      {
+        "man": "martin",
+        "woman": "zoe",
+        "is_match": false
+      },
+      {
+        "man": "pharrell",
+        "woman": "karina",
+        "is_match": false
+      },
+      {
+        "man": "lukas",
+        "woman": "celina",
+        "is_match": false
+      },
+      {
+        "man": "felix",
+        "woman": "ricarda",
+        "is_match": false
+      },
+      {
+        "man": "pharrell",
+        "woman": "isabelle",
+        "is_match": false
+      },
+      {
+        "man": "pharrell",
+        "woman": "ricarda",
+        "is_match": false
+      },
+      {
+        "man": "max",
+        "woman": "franzi",
+        "is_match": false
+      }
     ],
-    "matching_nights": [
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "gina",
-                    "calvin"
-                ],
-                [
-                    "luisa",
-                    "fabio"
-                ],
-                [
-                    "zoe",
-                    "luca"
-                ],
-                [
-                    "isabelle",
-                    "lukas"
-                ],
-                [
-                    "celina",
-                    "martin"
-                ],
-                [
-                    "ricarda",
-                    "maurice"
-                ],
-                [
-                    "franzi",
-                    "max"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "karina",
-                    "pharrell"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "felix"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "gina",
-                    "amadu"
-                ],
-                [
-                    "luisa",
-                    "calvin"
-                ],
-                [
-                    "karina",
-                    "fabio"
-                ],
-                [
-                    "franzi",
-                    "luca"
-                ],
-                [
-                    "zoe",
-                    "lukas"
-                ],
-                [
-                    "isabelle",
-                    "martin"
-                ],
-                [
-                    "ricarda",
-                    "maurice"
-                ],
-                [
-                    "celina",
-                    "max"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "cecilia",
-                    "pharrell"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "felix"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "cecilia",
-                    "fabio"
-                ],
-                [
-                    "zoe",
-                    "luca"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "karina",
-                    "martin"
-                ],
-                [
-                    "isabelle",
-                    "maurice"
-                ],
-                [
-                    "ricarda",
-                    "max"
-                ],
-                [
-                    "franzi",
-                    "micha"
-                ],
-                [
-                    "anna",
-                    "pharrell"
-                ],
-                [
-                    "gina",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "calvin"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "celina",
-                    "fabio"
-                ],
-                [
-                    "zoe",
-                    "luca"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "karina",
-                    "martin"
-                ],
-                [
-                    "isabelle",
-                    "maurice"
-                ],
-                [
-                    "ricarda",
-                    "max"
-                ],
-                [
-                    "franzi",
-                    "micha"
-                ],
-                [
-                    "anna",
-                    "pharrell"
-                ],
-                [
-                    "gina",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "calvin"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "karina",
-                    "amadu"
-                ],
-                [
-                    "celina",
-                    "fabio"
-                ],
-                [
-                    "zoe",
-                    "luca"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "isabelle",
-                    "martin"
-                ],
-                [
-                    "cecilia",
-                    "maurice"
-                ],
-                [
-                    "franzi",
-                    "max"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "ricarda",
-                    "pharrell"
-                ],
-                [
-                    "gina",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "amadu"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "karina",
-                    "calvin"
-                ],
-                [
-                    "celina",
-                    "fabio"
-                ],
-                [
-                    "zoe",
-                    "luca"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "isabelle",
-                    "martin"
-                ],
-                [
-                    "franzi",
-                    "max"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "ricarda",
-                    "pharrell"
-                ],
-                [
-                    "gina",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "maurice"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "franzi",
-                    "calvin"
-                ],
-                [
-                    "gina",
-                    "fabio"
-                ],
-                [
-                    "celina",
-                    "luca"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "karina",
-                    "martin"
-                ],
-                [
-                    "zoe",
-                    "maurice"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "ricarda",
-                    "pharrell"
-                ],
-                [
-                    "isabelle",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "max"
-            ],
-            "lichter": 5
-        },
-        {
-            "paarungen": [
-                [
-                    "cecilia",
-                    "amadu"
-                ],
-                [
-                    "gina",
-                    "calvin"
-                ],
-                [
-                    "celina",
-                    "fabio"
-                ],
-                [
-                    "luisa",
-                    "lukas"
-                ],
-                [
-                    "karina",
-                    "martin"
-                ],
-                [
-                    "ricarda",
-                    "maurice"
-                ],
-                [
-                    "franzi",
-                    "max"
-                ],
-                [
-                    "anna",
-                    "micha"
-                ],
-                [
-                    "zoe",
-                    "pharrell"
-                ],
-                [
-                    "isabelle",
-                    "felix"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "luca"
-            ],
-            "lichter": 7
-        }
-    ],
-    "perfekt_matches": [
-        [
-            "cecilia",
-            "amadu"
-        ],
-        [
-            "anna",
-            "micha"
-        ],
-        [
-            "luisa",
-            "lukas"
-        ]
-    ],
-    "wahrscheinlich_perfekt_match": [
-        [
-            "zoe",
-            "pharrell"
-        ],
-        [
-            "gina",
-            "felix"
-        ],
-        [
-            "celina",
-            "fabio"
-        ],
-        [
-            "karina",
-            "martin"
-        ],
-        [
-            "ricarda",
-            "maurice"
-        ],
-        [
-            "celina",
-            "max"
-        ]
-    ],
-    "finale_paarung": [
-        [
-            "cecilia",
-            "amadu"
-        ],
-        [
-            "franzi",
-            "calvin"
-        ],
-        [
-            "celina",
-            "fabio"
-        ],
-        [
-            "isabelle",
-            "felix"
-        ],
-        [
-            "karina",
-            "luca"
-        ],
-        [
-            "luisa",
-            "lukas"
-        ],
-        [
-            "gina",
-            "martin"
-        ],
-        [
-            "ricarda",
-            "maurice"
-        ],
-        [
-            "anna",
-            "micha"
-        ],
-        [
-            "zoe",
-            "pharrell"
-        ],
-        [
-            "isabelle",
-            "max"
-        ]
-    ],
-    "ausgeschlossene_paarungen": [
-        [
-            "zoe",
-            "martin"
-        ],
-        [
-            "karina",
-            "pharrell"
-        ],
-        [
-            "celina",
-            "lukas"
-        ],
-        [
-            "ricarda",
-            "felix"
-        ],
-        [
-            "isabelle",
-            "pharrell"
-        ],
-        [
-            "ricarda",
-            "pharrell"
-        ],
-        [
-            "franzi",
-            "max"
-        ],
-        [
-            "anna",
-            "amadu"
-        ],
-        [
-            "celina",
-            "amadu"
-        ],
-        [
-            "franzi",
-            "amadu"
-        ],
-        [
-            "gina",
-            "amadu"
-        ],
-        [
-            "isabelle",
-            "amadu"
-        ],
-        [
-            "karina",
-            "amadu"
-        ],
-        [
-            "luisa",
-            "amadu"
-        ],
-        [
-            "ricarda",
-            "amadu"
-        ],
-        [
-            "zoe",
-            "amadu"
-        ],
-        [
-            "anna",
-            "calvin"
-        ],
-        [
-            "cecilia",
-            "calvin"
-        ],
-        [
-            "luisa",
-            "calvin"
-        ],
-        [
-            "anna",
-            "fabio"
-        ],
-        [
-            "cecilia",
-            "fabio"
-        ],
-        [
-            "luisa",
-            "fabio"
-        ],
-        [
-            "anna",
-            "felix"
-        ],
-        [
-            "cecilia",
-            "felix"
-        ],
-        [
-            "luisa",
-            "felix"
-        ],
-        [
-            "anna",
-            "luca"
-        ],
-        [
-            "cecilia",
-            "luca"
-        ],
-        [
-            "luisa",
-            "luca"
-        ],
-        [
-            "anna",
-            "lukas"
-        ],
-        [
-            "cecilia",
-            "lukas"
-        ],
-        [
-            "franzi",
-            "lukas"
-        ],
-        [
-            "gina",
-            "lukas"
-        ],
-        [
-            "isabelle",
-            "lukas"
-        ],
-        [
-            "karina",
-            "lukas"
-        ],
-        [
-            "ricarda",
-            "lukas"
-        ],
-        [
-            "zoe",
-            "lukas"
-        ],
-        [
-            "anna",
-            "martin"
-        ],
-        [
-            "cecilia",
-            "martin"
-        ],
-        [
-            "luisa",
-            "martin"
-        ],
-        [
-            "anna",
-            "maurice"
-        ],
-        [
-            "cecilia",
-            "maurice"
-        ],
-        [
-            "luisa",
-            "maurice"
-        ],
-        [
-            "anna",
-            "max"
-        ],
-        [
-            "cecilia",
-            "max"
-        ],
-        [
-            "luisa",
-            "max"
-        ],
-        [
-            "cecilia",
-            "micha"
-        ],
-        [
-            "celina",
-            "micha"
-        ],
-        [
-            "franzi",
-            "micha"
-        ],
-        [
-            "gina",
-            "micha"
-        ],
-        [
-            "isabelle",
-            "micha"
-        ],
-        [
-            "karina",
-            "micha"
-        ],
-        [
-            "luisa",
-            "micha"
-        ],
-        [
-            "ricarda",
-            "micha"
-        ],
-        [
-            "zoe",
-            "micha"
-        ],
-        [
-            "anna",
-            "pharrell"
-        ],
-        [
-            "cecilia",
-            "pharrell"
-        ],
-        [
-            "luisa",
-            "pharrell"
-        ],
-        [
-            "zoe",
-            "calvin"
-        ],
-        [
-            "zoe",
-            "fabio"
-        ],
-        [
-            "zoe",
-            "felix"
-        ],
-        [
-            "zoe",
-            "luca"
-        ],
-        [
-            "zoe",
-            "maurice"
-        ],
-        [
-            "zoe",
-            "max"
-        ],
-        [
-            "celina",
-            "pharrell"
-        ],
-        [
-            "franzi",
-            "pharrell"
-        ],
-        [
-            "gina",
-            "pharrell"
-        ],
-        [
-            "gina",
-            "calvin"
-        ],
-        [
-            "gina",
-            "fabio"
-        ],
-        [
-            "celina",
-            "felix"
-        ],
-        [
-            "franzi",
-            "felix"
-        ],
-        [
-            "isabelle",
-            "felix"
-        ],
-        [
-            "karina",
-            "felix"
-        ],
-        [
-            "gina",
-            "luca"
-        ],
-        [
-            "gina",
-            "martin"
-        ],
-        [
-            "gina",
-            "maurice"
-        ],
-        [
-            "gina",
-            "max"
-        ],
-        [
-            "celina",
-            "martin"
-        ],
-        [
-            "celina",
-            "calvin"
-        ],
-        [
-            "karina",
-            "calvin"
-        ],
-        [
-            "ricarda",
-            "calvin"
-        ],
-        [
-            "celina",
-            "fabio"
-        ],
-        [
-            "franzi",
-            "fabio"
-        ],
-        [
-            "isabelle",
-            "fabio"
-        ],
-        [
-            "karina",
-            "fabio"
-        ],
-        [
-            "ricarda",
-            "fabio"
-        ],
-        [
-            "celina",
-            "luca"
-        ],
-        [
-            "karina",
-            "luca"
-        ],
-        [
-            "ricarda",
-            "luca"
-        ],
-        [
-            "franzi",
-            "martin"
-        ],
-        [
-            "isabelle",
-            "martin"
-        ],
-        [
-            "ricarda",
-            "martin"
-        ],
-        [
-            "celina",
-            "maurice"
-        ],
-        [
-            "franzi",
-            "maurice"
-        ],
-        [
-            "isabelle",
-            "maurice"
-        ],
-        [
-            "karina",
-            "maurice"
-        ],
-        [
-            "isabelle",
-            "max"
-        ],
-        [
-            "karina",
-            "max"
-        ],
-        [
-            "ricarda",
-            "max"
-        ],
-        [
-            "franzi",
-            "luca"
-        ]
+    "match_ceremonies": [
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "calvin", "woman": "gina"},
+          {"man": "fabio", "woman": "luisa"},
+          {"man": "luca", "woman": "zoe"},
+          {"man": "lukas", "woman": "isabelle"},
+          {"man": "martin", "woman": "celina"},
+          {"man": "maurice", "woman": "ricarda"},
+          {"man": "max", "woman": "franzi"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "karina"}
+        ],
+        "score": 3,
+        "no_pair:": "felix"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "gina"},
+          {"man": "calvin", "woman": "luisa"},
+          {"man": "fabio", "woman": "karina"},
+          {"man": "luca", "woman": "franzi"},
+          {"man": "lukas", "woman": "zoe"},
+          {"man": "martin", "woman": "isabelle"},
+          {"man": "maurice", "woman": "ricarda"},
+          {"man": "max", "woman": "celina"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "cecilia"}
+        ],
+        "score": 2,
+        "no_pair:": "felix"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "fabio", "woman": "cecilia"},
+          {"man": "luca", "woman": "isabelle"},
+          {"man": "lukas", "woman": "franzi"},
+          {"man": "martin", "woman": "anna"},
+          {"man": "maurice", "woman": "ricarda"},
+          {"man": "max", "woman": "zoe"},
+          {"man": "micha", "woman": "gina"},
+          {"man": "pharrell", "woman": "luisa"},
+          {"man": "calvin", "woman": "karina"}
+        ],
+        "score": 3,
+        "no_pair:": "felix"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "fabio", "woman": "celina"},
+          {"man": "luca", "woman": "zoe"},
+          {"man": "lukas", "woman": "luisa"},
+          {"man": "martin", "woman": "karina"},
+          {"man": "maurice", "woman": "isabelle"},
+          {"man": "max", "woman": "ricarda"},
+          {"man": "micha", "woman": "franzi"},
+          {"man": "pharrell", "woman": "anna"},
+          {"man": "felix", "woman": "gina"}
+        ],
+        "score": 3,
+        "no_pair:": "calvin"
+      },
+      {
+        "pairs": [
+          {"man": "calvin", "woman": "karina"},
+          {"man": "fabio", "woman": "celina"},
+          {"man": "luca", "woman": "zoe"},
+          {"man": "lukas", "woman": "luisa"},
+          {"man": "martin", "woman": "isabelle"},
+          {"man": "maurice", "woman": "cecilia"},
+          {"man": "max", "woman": "franzi"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "ricarda"},
+          {"man": "felix", "woman": "gina"}
+        ],
+        "score": 3,
+        "no_pair:": "amadu"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "calvin", "woman": "karina"},
+          {"man": "fabio", "woman": "celina"},
+          {"man": "luca", "woman": "zoe"},
+          {"man": "lukas", "woman": "luisa"},
+          {"man": "martin", "woman": "isabelle"},
+          {"man": "max", "woman": "franzi"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "ricarda"},
+          {"man": "felix", "woman": "gina"}
+        ],
+        "score": 4,
+        "no_pair:": "maurice"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "calvin", "woman": "franzi"},
+          {"man": "fabio", "woman": "gina"},
+          {"man": "luca", "woman": "celina"},
+          {"man": "lukas", "woman": "luisa"},
+          {"man": "martin", "woman": "karina"},
+          {"man": "maurice", "woman": "zoe"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "ricarda"},
+          {"man": "felix", "woman": "isabelle"}
+        ],
+        "score": 5,
+        "no_pair:": "max"
+      },
+      {
+        "pairs": [
+          {"man": "amadu", "woman": "cecilia"},
+          {"man": "calvin", "woman": "gina"},
+          {"man": "fabio", "woman": "celina"},
+          {"man": "lukas", "woman": "luisa"},
+          {"man": "martin", "woman": "karina"},
+          {"man": "maurice", "woman": "ricarda"},
+          {"man": "max", "woman": "franzi"},
+          {"man": "micha", "woman": "anna"},
+          {"man": "pharrell", "woman": "zoe"},
+          {"man": "felix", "woman": "isabelle"}
+        ],
+        "score": 7,
+        "no_pair:": "luca"
+      }
     ]
-}
+  }
+  

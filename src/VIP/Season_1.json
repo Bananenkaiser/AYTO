@@ -1,5 +1,6 @@
 {
-    "maenner": [
+    "participants": {
+      "men": [
         "alex",
         "danilo",
         "diogo",
@@ -10,8 +11,8 @@
         "manuel",
         "salvatore",
         "tommy"
-    ],
-    "frauen": [
+      ],
+      "women": [
         "aurelia",
         "finnja",
         "jacky",
@@ -23,939 +24,201 @@
         "steffi",
         "vanessa",
         "walentina"
+      ]
+    },
+    "truth_booths": [
+      {
+        "man": "josua",
+        "woman": "aurelia",
+        "is_match": true
+      },
+      {
+        "man": "francesco",
+        "woman": "jules",
+        "is_match": true
+      },
+      {
+        "man": "danilo",
+        "woman": "finnja",
+        "is_match": false
+      },
+      {
+        "man": "tommy",
+        "woman": "walentina",
+        "is_match": false
+      },
+      {
+        "man": "salvatore",
+        "woman": "finnja",
+        "is_match": false
+      },
+      {
+        "man": "eugen",
+        "woman": "finnja",
+        "is_match": false
+      },
+      {
+        "man": "eugen",
+        "woman": "steffi",
+        "is_match": false
+      },
+      {
+        "man": "josua",
+        "woman": "sarah",
+        "is_match": false
+      },
+      {
+        "man": "tommy",
+        "woman": "melina",
+        "is_match": false
+      }
     ],
-    "matching_nights": [
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "walentina",
-                    "eugen"
-                ],
-                [
-                    "aurelia",
-                    "diogo"
-                ],
-                [
-                    "jacky",
-                    "salvatore"
-                ],
-                [
-                    "steffi",
-                    "danilo"
-                ],
-                [
-                    "sarah",
-                    "josua"
-                ],
-                [
-                    "finnja",
-                    "francesco"
-                ],
-                [
-                    "melina",
-                    "tommy"
-                ],
-                [
-                    "jules",
-                    "alex"
-                ],
-                [
-                    "jill",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "steffi",
-                    "eugen"
-                ],
-                [
-                    "aurelia",
-                    "diogo"
-                ],
-                [
-                    "jacky",
-                    "salvatore"
-                ],
-                [
-                    "sarah",
-                    "danilo"
-                ],
-                [
-                    "walentina",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "melina",
-                    "tommy"
-                ],
-                [
-                    "finnja",
-                    "alex"
-                ],
-                [
-                    "jill",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                ""
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "finnja",
-                    "eugen"
-                ],
-                [
-                    "aurelia",
-                    "diogo"
-                ],
-                [
-                    "walentina",
-                    "salvatore"
-                ],
-                [
-                    "melina",
-                    "danilo"
-                ],
-                [
-                    "sarah",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "jill",
-                    "tommy"
-                ],
-                [
-                    "steffi",
-                    "alex"
-                ],
-                [
-                    "vanessa",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "jacky"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "jill",
-                    "manuel"
-                ],
-                [
-                    "finnja",
-                    "eugen"
-                ],
-                [
-                    "vanessa",
-                    "diogo"
-                ],
-                [
-                    "kathleen",
-                    "salvatore"
-                ],
-                [
-                    "aurelia",
-                    "danilo"
-                ],
-                [
-                    "walentina",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "melina",
-                    "tommy"
-                ],
-                [
-                    "sarah",
-                    "alex"
-                ],
-                [
-                    "steffi",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "jacky"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "finnja",
-                    "eugen"
-                ],
-                [
-                    "aurelia",
-                    "diogo"
-                ],
-                [
-                    "jacky",
-                    "salvatore"
-                ],
-                [
-                    "jill",
-                    "danilo"
-                ],
-                [
-                    "walentina",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "melina",
-                    "tommy"
-                ],
-                [
-                    "steffi",
-                    "alex"
-                ],
-                [
-                    "sarah",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "vanessa"
-            ],
-            "lichter": 3
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "jill",
-                    "eugen"
-                ],
-                [
-                    "vanessa",
-                    "diogo"
-                ],
-                [
-                    "walentina",
-                    "salvatore"
-                ],
-                [
-                    "aurelia",
-                    "danilo"
-                ],
-                [
-                    "sarah",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "melina",
-                    "tommy"
-                ],
-                [
-                    "jacky",
-                    "alex"
-                ],
-                [
-                    "finnja",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "steffi"
-            ],
-            "lichter": 2
-        },
-        {
-            "paarungen": [
-                [
-                    "finnja",
-                    "manuel"
-                ],
-                [
-                    "jacky",
-                    "eugen"
-                ],
-                [
-                    "vanessa",
-                    "diogo"
-                ],
-                [
-                    "jill",
-                    "salvatore"
-                ],
-                [
-                    "aurelia",
-                    "danilo"
-                ],
-                [
-                    "walentina",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "steffi",
-                    "tommy"
-                ],
-                [
-                    "melina",
-                    "alex"
-                ],
-                [
-                    "sarah",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "kathleen"
-            ],
-            "lichter": 1
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "melina",
-                    "eugen"
-                ],
-                [
-                    "vanessa",
-                    "diogo"
-                ],
-                [
-                    "walentina",
-                    "salvatore"
-                ],
-                [
-                    "jill",
-                    "danilo"
-                ],
-                [
-                    "vanessa",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "finnja",
-                    "tommy"
-                ],
-                [
-                    "sarah",
-                    "alex"
-                ],
-                [
-                    "steffi",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "jacky"
-            ],
-            "lichter": 4
-        },
-        {
-            "paarungen": [
-                [
-                    "kathleen",
-                    "manuel"
-                ],
-                [
-                    "walentina",
-                    "eugen"
-                ],
-                [
-                    "jill",
-                    "diogo"
-                ],
-                [
-                    "jacky",
-                    "salvatore"
-                ],
-                [
-                    "sarah",
-                    "danilo"
-                ],
-                [
-                    "aurelia",
-                    "josua"
-                ],
-                [
-                    "jules",
-                    "francesco"
-                ],
-                [
-                    "finnja",
-                    "tommy"
-                ],
-                [
-                    "vanessa",
-                    "alex"
-                ],
-                [
-                    "steffi",
-                    "jamy"
-                ]
-            ],
-            "uebrig_geblieben": [
-                "melina"
-            ],
-            "lichter": 7
-        }
-    ],
-    "perfekt_matches": [
-        [
-            "aurelia",
-            "josua"
-        ],
-        [
-            "jules",
-            "francesco"
-        ]
-    ],
-    "wahrscheinlich_perfekt_match": [
-        [
-            "kathleen",
-            "manuel"
-        ],
-        [
-            "jacky",
-            "salvatore"
-        ],
-        [
-            "sarah",
-            "alex"
-        ],
-        [
-            "steffi",
-            "jamy"
-        ],
-        [
-            "walentina",
-            "eugen"
-        ],
-        [
-            "melina",
-            "danilo"
-        ],
-        [
-            "jill",
-            "tommy"
-        ],
-        [
-            "jill",
-            "diogo"
-        ],
-        [
-            "finnja",
-            "diogo"
-        ]
-    ],
-    "finale_paarung": [
-        [
-            "vanessa",
-            "alex"
-        ],
-        [
-            "melina",
-            "danilo"
-        ],
-        [
-            "finnja",
-            "diogo"
-        ],
-        [
-            "walentina",
-            "eugen"
-        ],
-        [
-            "jules",
-            "francesco"
-        ],
-        [
-            "steffi",
-            "jamy"
-        ],
-        [
-            "aurelia",
-            "josua"
-        ],
-        [
-            "kathleen",
-            "manuel"
-        ],
-        [
-            "jacky",
-            "salvatore"
-        ],
-        [
-            "jill",
-            "tommy"
-        ],
-        [
-            "sarah",
-            "alex"
-        ]
-    ],
-    "ausgeschlossene_paarungen": [
-        [
-            "finnja",
-            "danilo"
-        ],
-        [
-            "walentina",
-            "tommy"
-        ],
-        [
-            "finnja",
-            "salvatore"
-        ],
-        [
-            "finnja",
-            "eugen"
-        ],
-        [
-            "steffi",
-            "eugen"
-        ],
-        [
-            "sarah",
-            "josua"
-        ],
-        [
-            "aurelia",
-            "alex"
-        ],
-        [
-            "jules",
-            "alex"
-        ],
-        [
-            "aurelia",
-            "danilo"
-        ],
-        [
-            "jules",
-            "danilo"
-        ],
-        [
-            "aurelia",
-            "diogo"
-        ],
-        [
-            "jules",
-            "diogo"
-        ],
-        [
-            "aurelia",
-            "eugen"
-        ],
-        [
-            "jules",
-            "eugen"
-        ],
-        [
-            "aurelia",
-            "francesco"
-        ],
-        [
-            "finnja",
-            "francesco"
-        ],
-        [
-            "jacky",
-            "francesco"
-        ],
-        [
-            "jill",
-            "francesco"
-        ],
-        [
-            "kathleen",
-            "francesco"
-        ],
-        [
-            "melina",
-            "francesco"
-        ],
-        [
-            "sarah",
-            "francesco"
-        ],
-        [
-            "steffi",
-            "francesco"
-        ],
-        [
-            "vanessa",
-            "francesco"
-        ],
-        [
-            "walentina",
-            "francesco"
-        ],
-        [
-            "aurelia",
-            "jamy"
-        ],
-        [
-            "jules",
-            "jamy"
-        ],
-        [
-            "finnja",
-            "josua"
-        ],
-        [
-            "jacky",
-            "josua"
-        ],
-        [
-            "jill",
-            "josua"
-        ],
-        [
-            "jules",
-            "josua"
-        ],
-        [
-            "kathleen",
-            "josua"
-        ],
-        [
-            "melina",
-            "josua"
-        ],
-        [
-            "steffi",
-            "josua"
-        ],
-        [
-            "vanessa",
-            "josua"
-        ],
-        [
-            "walentina",
-            "josua"
-        ],
-        [
-            "aurelia",
-            "manuel"
-        ],
-        [
-            "jules",
-            "manuel"
-        ],
-        [
-            "aurelia",
-            "salvatore"
-        ],
-        [
-            "jules",
-            "salvatore"
-        ],
-        [
-            "aurelia",
-            "tommy"
-        ],
-        [
-            "jules",
-            "tommy"
-        ],
-        [
-            "finnja",
-            "manuel"
-        ],
-        [
-            "jacky",
-            "eugen"
-        ],
-        [
-            "vanessa",
-            "diogo"
-        ],
-        [
-            "jill",
-            "salvatore"
-        ],
-        [
-            "steffi",
-            "tommy"
-        ],
-        [
-            "melina",
-            "alex"
-        ],
-        [
-            "sarah",
-            "jamy"
-        ],
-        [
-            "kathleen",
-            "alex"
-        ],
-        [
-            "kathleen",
-            "danilo"
-        ],
-        [
-            "kathleen",
-            "diogo"
-        ],
-        [
-            "kathleen",
-            "eugen"
-        ],
-        [
-            "kathleen",
-            "jamy"
-        ],
-        [
-            "jacky",
-            "manuel"
-        ],
-        [
-            "jill",
-            "manuel"
-        ],
-        [
-            "melina",
-            "manuel"
-        ],
-        [
-            "sarah",
-            "manuel"
-        ],
-        [
-            "steffi",
-            "manuel"
-        ],
-        [
-            "vanessa",
-            "manuel"
-        ],
-        [
-            "walentina",
-            "manuel"
-        ],
-        [
-            "kathleen",
-            "salvatore"
-        ],
-        [
-            "kathleen",
-            "tommy"
-        ],
-        [
-            "jill",
-            "eugen"
-        ],
-        [
-            "walentina",
-            "salvatore"
-        ],
-        [
-            "melina",
-            "tommy"
-        ],
-        [
-            "jacky",
-            "alex"
-        ],
-        [
-            "finnja",
-            "jamy"
-        ],
-        [
-            "jacky",
-            "danilo"
-        ],
-        [
-            "jacky",
-            "diogo"
-        ],
-        [
-            "jacky",
-            "jamy"
-        ],
-        [
-            "melina",
-            "salvatore"
-        ],
-        [
-            "sarah",
-            "salvatore"
-        ],
-        [
-            "steffi",
-            "salvatore"
-        ],
-        [
-            "vanessa",
-            "salvatore"
-        ],
-        [
-            "jacky",
-            "tommy"
-        ],
-        [
-            "jill",
-            "danilo"
-        ],
-        [
-            "steffi",
-            "alex"
-        ],
-        [
-            "sarah",
-            "danilo"
-        ],
-        [
-            "finnja",
-            "alex"
-        ],
-        [
-            "jill",
-            "jamy"
-        ],
-        [
-            "jill",
-            "alex"
-        ],
-        [
-            "vanessa",
-            "alex"
-        ],
-        [
-            "walentina",
-            "alex"
-        ],
-        [
-            "steffi",
-            "danilo"
-        ],
-        [
-            "walentina",
-            "danilo"
-        ],
-        [
-            "sarah",
-            "diogo"
-        ],
-        [
-            "steffi",
-            "diogo"
-        ],
-        [
-            "walentina",
-            "diogo"
-        ],
-        [
-            "melina",
-            "eugen"
-        ],
-        [
-            "sarah",
-            "eugen"
-        ],
-        [
-            "vanessa",
-            "eugen"
-        ],
-        [
-            "melina",
-            "jamy"
-        ],
-        [
-            "vanessa",
-            "jamy"
-        ],
-        [
-            "walentina",
-            "jamy"
-        ],
-        [
-            "sarah",
-            "tommy"
-        ],
-        [
-            "finnja",
-            "tommy"
-        ],
-        [
-            "vanessa",
-            "danilo"
-        ],
-        [
-            "jill",
-            "diogo"
-        ],
-        [
-            "melina",
-            "diogo"
-        ],
-        [
-            "jill",
-            "tommy"
-        ],
-        [
-            "vanessa",
-            "tommy"
-        ]
+
+    "match_ceremonies": [
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "walentina"},
+          {"man": "diogo", "woman": "aurelia"},
+          {"man": "salvatore", "woman": "jacky"},
+          {"man": "danilo", "woman": "steffi"},
+          {"man": "josua", "woman": "sarah"},
+          {"man": "francesco", "woman": "finnja"},
+          {"man": "tommy", "woman": "melina"},
+          {"man": "alex", "woman": "jules"},
+          {"man": "jamy", "woman": "jill"}
+        ],
+        "score": 3,
+        "no_pair:": null
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "steffi"},
+          {"man": "diogo", "woman": "aurelia"},
+          {"man": "salvatore", "woman": "jacky"},
+          {"man": "danilo", "woman": "sarah"},
+          {"man": "josua", "woman": "walentina"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "melina"},
+          {"man": "alex", "woman": "finnja"},
+          {"man": "jamy", "woman": "jill"}
+        ],
+        "score": 3,
+        "no_pair:": null
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "finnja"},
+          {"man": "diogo", "woman": "aurelia"},
+          {"man": "salvatore", "woman": "walentina"},
+          {"man": "danilo", "woman": "melina"},
+          {"man": "josua", "woman": "sarah"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "jill"},
+          {"man": "alex", "woman": "steffi"},
+          {"man": "jamy", "woman": "vanessa"}
+        ],
+        "score": 4,
+        "no_pair:": "jacky"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "jill"},
+          {"man": "eugen", "woman": "finnja"},
+          {"man": "diogo", "woman": "vanessa"},
+          {"man": "salvatore", "woman": "kathleen"},
+          {"man": "danilo", "woman": "aurelia"},
+          {"man": "josua", "woman": "walentina"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "melina"},
+          {"man": "alex", "woman": "sarah"},
+          {"man": "jamy", "woman": "steffi"}
+        ],
+        "score": 3,
+        "no_pair:": "jacky"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "finnja"},
+          {"man": "diogo", "woman": "aurelia"},
+          {"man": "salvatore", "woman": "jacky"},
+          {"man": "danilo", "woman": "jill"},
+          {"man": "josua", "woman": "walentina"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "melina"},
+          {"man": "alex", "woman": "steffi"},
+          {"man": "jamy", "woman": "sarah"}
+        ],
+        "score": 3,
+        "no_pair:": "vanessa"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "jill"},
+          {"man": "diogo", "woman": "vanessa"},
+          {"man": "salvatore", "woman": "walentina"},
+          {"man": "danilo", "woman": "aurelia"},
+          {"man": "josua", "woman": "sarah"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "melina"},
+          {"man": "alex", "woman": "jacky"},
+          {"man": "jamy", "woman": "finnja"}
+        ],
+        "score": 2,
+        "no_pair:": "steffi"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "finnja"},
+          {"man": "eugen", "woman": "jacky"},
+          {"man": "diogo", "woman": "vanessa"},
+          {"man": "salvatore", "woman": "jill"},
+          {"man": "danilo", "woman": "aurelia"},
+          {"man": "josua", "woman": "walentina"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "steffi"},
+          {"man": "alex", "woman": "melina"},
+          {"man": "jamy", "woman": "sarah"}
+        ],
+        "score": 1,
+        "no_pair:": "kathleen"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "melina"},
+          {"man": "diogo", "woman": "vanessa"},
+          {"man": "salvatore", "woman": "walentina"},
+          {"man": "danilo", "woman": "jill"},
+          {"man": "josua", "woman": "vanessa"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "finnja"},
+          {"man": "alex", "woman": "sarah"},
+          {"man": "jamy", "woman": "steffi"}
+        ],
+        "score": 4,
+        "no_pair:": "jacky"
+      },
+      {
+        "pairs": [
+          {"man": "manuel", "woman": "kathleen"},
+          {"man": "eugen", "woman": "walentina"},
+          {"man": "diogo", "woman": "jill"},
+          {"man": "salvatore", "woman": "jacky"},
+          {"man": "danilo", "woman": "sarah"},
+          {"man": "josua", "woman": "aurelia"},
+          {"man": "francesco", "woman": "jules"},
+          {"man": "tommy", "woman": "finnja"},
+          {"man": "alex", "woman": "vanessa"},
+          {"man": "jamy", "woman": "steffi"}
+        ],
+        "score": 7,
+        "no_pair:": "melina"
+      }
     ]
-}
+  }
+  
