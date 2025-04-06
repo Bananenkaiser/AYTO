@@ -1,4 +1,5 @@
 import json
+import time
 from itertools import permutations, combinations
 
 # ------------------------------
@@ -60,9 +61,12 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
     best_score = -1
     iterations_without_improvement = 0
 
-    for selected_women in combinations(women, len(men)):
+    # Determine the smaller group size to handle unmatched participants
+    min_size = min(len(men), len(women))
+
+    for selected_women in combinations(women, min_size):
         for perm in permutations(selected_women):
-            pairing = dict(zip(men, perm))
+            pairing = dict(zip(men[:len(perm)], perm))
 
             if is_valid_truth_booth(pairing, truth_booths) and \
                respects_perfect_matches(pairing, truth_booths) and \
@@ -98,12 +102,17 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
 if __name__ == "__main__":
     #path = f".\\src\\vip\\"
     path = f".\\src\\normal\\"
-    season = "Season_5.json"
+    season = "Season_6.json"
 
     with open(path + season, "r") as f:
         data = json.load(f)
 
-    solutions = find_valid_ayto_solutions(data, limit=1, patience=20000000)
+    start_time = time.time()  # Record start time
+
+    solutions = find_valid_ayto_solutions(data, limit=1, patience=5000000)
+
+    end_time = time.time()  # Record end time
+    elapsed_time = end_time - start_time
 
     if solutions:
         print("✅ Gültige Lösung gefunden:\n")
@@ -111,3 +120,5 @@ if __name__ == "__main__":
             print(f"{man} ↔ {woman}")
     else:
         print("❌ Keine gültige Lösung gefunden.")
+
+    print(f"Zeit zum Finden der Lösung: {elapsed_time:.2f} Sekunden")

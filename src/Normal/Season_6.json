@@ -387,6 +387,53 @@
           "woman": "deisy"
         }
       ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "no_pair:": "tori",
+      "pairs": [
+        {
+          "man": "tano",
+          "woman": "joanna"
+        },
+        {
+          "man": "levin",
+          "woman": "ina"
+        },
+        {
+          "man": "sinan",
+          "woman": "nasti"
+        },
+        {
+          "man": "josh",
+          "woman": "camelia"
+        },
+        {
+          "man": "kaan",
+          "woman": "selina"
+        },
+        {
+          "man": "dion",
+          "woman": "chiara"
+        },
+        {
+          "man": "enes",
+          "woman": "sophia"
+        },
+        {
+          "man": "joshua",
+          "woman": "anna"
+        },
+        {
+          "man": "danish",
+          "woman": "nadja"
+        },
+        {
+          "man": "dino",
+          "woman": "deisy"
+        }
+      ]
     }
   ]
 }
