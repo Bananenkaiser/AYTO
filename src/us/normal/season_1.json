@@ -1,0 +1,496 @@
+{
+  "participants": {
+    "men": [
+      "adam",
+      "chris s.",
+      "chris t.",
+      "dillan",
+      "dre",
+      "ethan",
+      "john",
+      "joey",
+      "ryan",
+      "wes"
+    ],
+    "women": [
+      "amber",
+      "ashleigh",
+      "brittany",
+      "coleysia",
+      "jacy",
+      "jessica",
+      "kayla",
+      "paige",
+      "shanley",
+      "simone"
+    ]
+  },
+  "truth_booths": [
+    {
+      "man": "chris t.",
+      "woman": "shanley",
+      "is_match": false
+    },
+    {
+      "man": "ethan",
+      "woman": "jessica",
+      "is_match": false
+    },
+    {
+      "man": "john",
+      "woman": "simone",
+      "is_match": false
+    },
+    {
+      "man": "dillan",
+      "woman": "jessica",
+      "is_match": false
+    },
+    {
+      "man": "dre",
+      "woman": "ashleigh",
+      "is_match": false
+    },
+    {
+      "man": "dillan",
+      "woman": "coleysia",
+      "is_match": true
+    },
+    {
+      "man": "chris t.",
+      "woman": "paige",
+      "is_match": true
+    },
+    {
+      "man": "ryan",
+      "woman": "kayla",
+      "is_match": false
+    },
+    {
+      "man": "wes",
+      "woman": "kayla",
+      "is_match": true
+    },
+    {
+      "man": "john",
+      "woman": "jacy",
+      "is_match": false
+    }
+  ],
+  "match_ceremonies": [
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "brittany"
+        },
+        {
+          "man": "chris s.",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "chris t.",
+          "woman": "jessica"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "jacy"
+        },
+        {
+          "man": "ethan",
+          "woman": "shanley"
+        },
+        {
+          "man": "john",
+          "woman": "simone"
+        },
+        {
+          "man": "joey",
+          "woman": "paige"
+        },
+        {
+          "man": "ryan",
+          "woman": "amber"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    },
+    {
+      "score": 4,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "shanley"
+        },
+        {
+          "man": "chris s.",
+          "woman": "simone"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "jessica"
+        },
+        {
+          "man": "dre",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "jacy"
+        },
+        {
+          "man": "joey",
+          "woman": "brittany"
+        },
+        {
+          "man": "ryan",
+          "woman": "kayla"
+        },
+        {
+          "man": "wes",
+          "woman": "coleysia"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "brittany"
+        },
+        {
+          "man": "chris s.",
+          "woman": "paige"
+        },
+        {
+          "man": "chris t.",
+          "woman": "simone"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "jessica"
+        },
+        {
+          "man": "joey",
+          "woman": "shanley"
+        },
+        {
+          "man": "ryan",
+          "woman": "kayla"
+        },
+        {
+          "man": "wes",
+          "woman": "jacy"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "amber"
+        },
+        {
+          "man": "chris s.",
+          "woman": "paige"
+        },
+        {
+          "man": "chris t.",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "simone"
+        },
+        {
+          "man": "ethan",
+          "woman": "kayla"
+        },
+        {
+          "man": "john",
+          "woman": "shanley"
+        },
+        {
+          "man": "joey",
+          "woman": "jacy"
+        },
+        {
+          "man": "ryan",
+          "woman": "brittany"
+        },
+        {
+          "man": "wes",
+          "woman": "jessica"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "shanley"
+        },
+        {
+          "man": "chris s.",
+          "woman": "simone"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "brittany"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "jacy"
+        },
+        {
+          "man": "joey",
+          "woman": "jessica"
+        },
+        {
+          "man": "ryan",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "chris s.",
+          "woman": "brittany"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "shanley"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "jacy"
+        },
+        {
+          "man": "joey",
+          "woman": "simone"
+        },
+        {
+          "man": "ryan",
+          "woman": "jessica"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    },
+    {
+      "score": 7,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "shanley"
+        },
+        {
+          "man": "chris s.",
+          "woman": "jacy"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "simone"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "brittany"
+        },
+        {
+          "man": "joey",
+          "woman": "jessica"
+        },
+        {
+          "man": "ryan",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    },
+    {
+      "score": 8,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "shanley"
+        },
+        {
+          "man": "chris s.",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "simone"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "jacy"
+        },
+        {
+          "man": "joey",
+          "woman": "brittany"
+        },
+        {
+          "man": "ryan",
+          "woman": "jessica"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    },
+    {
+      "score": 10,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "adam",
+          "woman": "shanley"
+        },
+        {
+          "man": "chris s.",
+          "woman": "jacy"
+        },
+        {
+          "man": "chris t.",
+          "woman": "paige"
+        },
+        {
+          "man": "dillan",
+          "woman": "coleysia"
+        },
+        {
+          "man": "dre",
+          "woman": "simone"
+        },
+        {
+          "man": "ethan",
+          "woman": "amber"
+        },
+        {
+          "man": "john",
+          "woman": "ashleigh"
+        },
+        {
+          "man": "joey",
+          "woman": "brittany"
+        },
+        {
+          "man": "ryan",
+          "woman": "jessica"
+        },
+        {
+          "man": "wes",
+          "woman": "kayla"
+        }
+      ]
+    }
+  ]
+}

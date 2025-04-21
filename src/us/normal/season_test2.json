@@ -1,0 +1,215 @@
+{
+  "participants": {
+    "men": [
+      { "code": "M1",  "name": "Alex"     },
+      { "code": "M2",  "name": "Anthony"  },
+      { "code": "M3",  "name": "Brandon"  },
+      { "code": "M4",  "name": "Curtis"   },
+      { "code": "M5",  "name": "Dario"    },
+      { "code": "M6",  "name": "Garland"  },
+      { "code": "M7",  "name": "John"     },
+      { "code": "M8",  "name": "Layton"   },
+      { "code": "M9",  "name": "Nathan"   },
+      { "code": "M10", "name": "Pratt"    }
+    ],
+    "women": [
+      { "code": "W1",  "name": "Alexandria" },
+      { "code": "W2",  "name": "Ashley"     },
+      { "code": "W3",  "name": "Briana"     },
+      { "code": "W4",  "name": "Christina"  },
+      { "code": "W5",  "name": "Ellie"      },
+      { "code": "W6",  "name": "Jasmine"    },
+      { "code": "W7",  "name": "Jenni"      },
+      { "code": "W8",  "name": "Jessica"    },
+      { "code": "W9",  "name": "Paris"      },
+      { "code": "W10", "name": "Shelby"     },
+      { "code": "W11", "name": "Tyler"      }
+    ]
+  },
+
+  "truth_booths": [
+    { "man": "M3",  "woman": "W8",  "is_match": false },
+    { "man": "M3",  "woman": "W4",  "is_match": false },
+    { "man": "M3",  "woman": "W1",  "is_match": false },
+    { "man": "M10", "woman": "W9",  "is_match": true  },
+    { "man": "M4",  "woman": "W10", "is_match": true  },
+    { "man": "M7",  "woman": "W6",  "is_match": false },
+    { "man": "M7",  "woman": "W7",  "is_match": true  },
+    { "man": "M9",  "woman": "W4",  "is_match": false },
+    { "man": "M1",  "woman": "W6",  "is_match": true  },
+    { "man": "M5",  "woman": "W2",  "is_match": true  }
+  ],
+  
+  "match_ceremonies": [
+    {
+      "score": 2,
+      "blackout": false,
+      "no_pair": "W11",
+      "pairs": [
+        { "man": "M1",  "woman": "W5"  },
+        { "man": "M2",  "woman": "W8"  },
+        { "man": "M3",  "woman": "W4"  },
+        { "man": "M4",  "woman": "W3"  },
+        { "man": "M5",  "woman": "W2"  },
+        { "man": "M6",  "woman": "W1"  },
+        { "man": "M7",  "woman": "W6"  },
+        { "man": "M8",  "woman": "W7"  },
+        { "man": "M9",  "woman": "W10" },
+        { "man": "M10", "woman": "W9"  }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "no_pair": "W5",
+      "pairs": [
+        {"man": "M1", "woman": "W4"},
+        {"man": "M2", "woman": "W1"},
+        {"man": "M3", "woman": "W11"},
+        {"man": "M4", "woman": "W3"},
+        {"man": "M5", "woman": "W10"},
+        {"man": "M6", "woman": "W6"},
+        {"man": "M7", "woman": "W2"},
+        {"man": "M8", "woman": "W8"},
+        {"man": "M9", "woman": "W7"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 3,
+      "blackout": false,
+      "no_pair": "W11",
+      "pairs": [
+        {"man": "M1", "woman": "W6"},
+        {"man": "M2", "woman": "W7"},
+        {"man": "M3", "woman": "W10"},
+        {"man": "M4", "woman": "W3"},
+        {"man": "M5", "woman": "W2"},
+        {"man": "M6", "woman": "W1"},
+        {"man": "M7", "woman": "W4"},
+        {"man": "M8", "woman": "W5"},
+        {"man": "M9", "woman": "W8"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 1,
+      "blackout": false,
+      "no_pair": "W2",
+      "pairs": [
+        {"man": "M1", "woman": "W11"},
+        {"man": "M2", "woman": "W7"},
+        {"man": "M3", "woman": "W5"},
+        {"man": "M4", "woman": "W3"},
+        {"man": "M5", "woman": "W10"},
+        {"man": "M6", "woman": "W6"},
+        {"man": "M7", "woman": "W4"},
+        {"man": "M8", "woman": "W8"},
+        {"man": "M9", "woman": "W1"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 3,
+      "blackout": false,
+      "no_pair": "W5",
+      "pairs": [
+        {"man": "M1", "woman": "W4"},
+        {"man": "M2", "woman": "W2"},
+        {"man": "M3", "woman": "W6"},
+        {"man": "M4", "woman": "W10"},
+        {"man": "M5", "woman": "W1"},
+        {"man": "M6", "woman": "W11"},
+        {"man": "M7", "woman": "W7"},
+        {"man": "M8", "woman": "W3"},
+        {"man": "M9", "woman": "W8"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "no_pair": "W4",
+      "pairs": [
+        {"man": "M1", "woman": "W8"},
+        {"man": "M2", "woman": "W5"},
+        {"man": "M3", "woman": "W2"},
+        {"man": "M4", "woman": "W10"},
+        {"man": "M5", "woman": "W3"},
+        {"man": "M6", "woman": "W11"},
+        {"man": "M7", "woman": "W1"},
+        {"man": "M8", "woman": "W7"},
+        {"man": "M9", "woman": "W6"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 6,
+      "blackout": false,
+      "no_pair": "W1",
+      "pairs": [
+        {"man": "M1", "woman": "W6"},
+        {"man": "M2", "woman": "W3"},
+        {"man": "M3", "woman": "W11"},
+        {"man": "M4", "woman": "W10"},
+        {"man": "M5", "woman": "W2"},
+        {"man": "M6", "woman": "W8"},
+        {"man": "M7", "woman": "W7"},
+        {"man": "M8", "woman": "W5"},
+        {"man": "M9", "woman": "W4"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "no_pair": "W4",
+      "pairs": [
+        {"man": "M1", "woman": "W6"},
+        {"man": "M2", "woman": "W8"},
+        {"man": "M3", "woman": "W11"},
+        {"man": "M4", "woman": "W10"},
+        {"man": "M5", "woman": "W2"},
+        {"man": "M6", "woman": "W1"},
+        {"man": "M7", "woman": "W7"},
+        {"man": "M8", "woman": "W5"},
+        {"man": "M9", "woman": "W3"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 8,
+      "blackout": false,
+      "no_pair": "W4",
+      "pairs": [
+        {"man": "M1", "woman": "W6"},
+        {"man": "M2", "woman": "W1"},
+        {"man": "M3", "woman": "W3"},
+        {"man": "M4", "woman": "W10"},
+        {"man": "M5", "woman": "W11"},
+        {"man": "M6", "woman": "W8"},
+        {"man": "M7", "woman": "W7"},
+        {"man": "M8", "woman": "W2"},
+        {"man": "M9", "woman": "W5"},
+        {"man": "M10", "woman": "W9"}
+      ]
+    },
+    {
+      "score": 10,
+      "blackout": false,
+      "no_pair": "W4",
+      "pairs": [
+        { "man": "M1",  "woman": "W6"  },
+        { "man": "M2",  "woman": "W1"  },
+        { "man": "M3",  "woman": "W3"  },
+        { "man": "M4",  "woman": "W10" },
+        { "man": "M5",  "woman": "W2"  },
+        { "man": "M6",  "woman": "W8"  },
+        { "man": "M7",  "woman": "W7"  },
+        { "man": "M8",  "woman": "W11"  },
+        { "man": "M9",  "woman": "W5" },
+        { "man": "M10", "woman": "W9"  }
+      ]
+    }
+  ]
+}

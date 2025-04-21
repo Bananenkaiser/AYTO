@@ -1,0 +1,543 @@
+{
+  "participants": {
+    "men": [
+      "alex",
+      "anthony",
+      "brandon",
+      "curtis",
+      "dario",
+      "garland",
+      "john",
+      "layton",
+      "nathan",
+      "pratt"
+    ],
+    "women": [
+      "alexandria",
+      "ashley",
+      "briana",
+      "christina",
+      "ellie",
+      "jasmine",
+      "jenni",
+      "jessica",
+      "paris",
+      "shelby",
+      "tyler"
+    ]
+  },
+  "truth_booths": [
+    {
+      "man": "brandon",
+      "woman": "jessica",
+      "is_match": false
+    },
+    {
+      "man": "brandon",
+      "woman": "christina",
+      "is_match": false
+    },
+    {
+      "man": "brandon",
+      "woman": "alexandria",
+      "is_match": false
+    },
+    {
+      "man": "pratt",
+      "woman": "paris",
+      "is_match": true
+    },
+    {
+      "man": "curtis",
+      "woman": "shelby",
+      "is_match": true
+    },
+    {
+      "man": "john",
+      "woman": "jasmine",
+      "is_match": false
+    },
+    {
+      "man": "john",
+      "woman": "jenni",
+      "is_match": true
+    },
+    {
+      "man": "nathan",
+      "woman": "christina",
+      "is_match": false
+    },
+    {
+      "man": "alex",
+      "woman": "jasmine",
+      "is_match": true
+    },
+    {
+      "man": "dario",
+      "woman": "ashley",
+      "is_match": true
+    }
+  ],
+  "match_ceremonies": [
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "ellie"
+        },
+        {
+          "man": "anthony",
+          "woman": "jessica"
+        },
+        {
+          "man": "brandon",
+          "woman": "christina"
+        },
+        {
+          "man": "curtis",
+          "woman": "briana"
+        },
+        {
+          "man": "dario",
+          "woman": "ashley"
+        },
+        {
+          "man": "garland",
+          "woman": "alexandria"
+        },
+        {
+          "man": "john",
+          "woman": "jasmine"
+        },
+        {
+          "man": "layton",
+          "woman": "jenni"
+        },
+        {
+          "man": "nathan",
+          "woman": "shelby"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "christina"
+        },
+        {
+          "man": "anthony",
+          "woman": "alexandria"
+        },
+        {
+          "man": "brandon",
+          "woman": "tyler"
+        },
+        {
+          "man": "curtis",
+          "woman": "briana"
+        },
+        {
+          "man": "dario",
+          "woman": "shelby"
+        },
+        {
+          "man": "garland",
+          "woman": "jasmine"
+        },
+        {
+          "man": "john",
+          "woman": "ashley"
+        },
+        {
+          "man": "layton",
+          "woman": "jessica"
+        },
+        {
+          "man": "nathan",
+          "woman": "jenni"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 3,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jasmine"
+        },
+        {
+          "man": "anthony",
+          "woman": "jenni"
+        },
+        {
+          "man": "brandon",
+          "woman": "shelby"
+        },
+        {
+          "man": "curtis",
+          "woman": "briana"
+        },
+        {
+          "man": "dario",
+          "woman": "ashley"
+        },
+        {
+          "man": "garland",
+          "woman": "alexandria"
+        },
+        {
+          "man": "john",
+          "woman": "christina"
+        },
+        {
+          "man": "layton",
+          "woman": "ellie"
+        },
+        {
+          "man": "nathan",
+          "woman": "jessica"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 1,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "tyler"
+        },
+        {
+          "man": "anthony",
+          "woman": "jenni"
+        },
+        {
+          "man": "brandon",
+          "woman": "ellie"
+        },
+        {
+          "man": "curtis",
+          "woman": "briana"
+        },
+        {
+          "man": "dario",
+          "woman": "shelby"
+        },
+        {
+          "man": "garland",
+          "woman": "jasmine"
+        },
+        {
+          "man": "john",
+          "woman": "christina"
+        },
+        {
+          "man": "layton",
+          "woman": "jessica"
+        },
+        {
+          "man": "nathan",
+          "woman": "alexandria"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 3,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "christina"
+        },
+        {
+          "man": "anthony",
+          "woman": "ashley"
+        },
+        {
+          "man": "brandon",
+          "woman": "jasmine"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "alexandria"
+        },
+        {
+          "man": "garland",
+          "woman": "tyler"
+        },
+        {
+          "man": "john",
+          "woman": "jenni"
+        },
+        {
+          "man": "layton",
+          "woman": "briana"
+        },
+        {
+          "man": "nathan",
+          "woman": "jessica"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jessica"
+        },
+        {
+          "man": "anthony",
+          "woman": "ellie"
+        },
+        {
+          "man": "brandon",
+          "woman": "ashley"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "briana"
+        },
+        {
+          "man": "garland",
+          "woman": "tyler"
+        },
+        {
+          "man": "john",
+          "woman": "alexandria"
+        },
+        {
+          "man": "layton",
+          "woman": "jenni"
+        },
+        {
+          "man": "nathan",
+          "woman": "jasmine"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 6,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jasmine"
+        },
+        {
+          "man": "anthony",
+          "woman": "briana"
+        },
+        {
+          "man": "brandon",
+          "woman": "tyler"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "ashley"
+        },
+        {
+          "man": "garland",
+          "woman": "jessica"
+        },
+        {
+          "man": "john",
+          "woman": "jenni"
+        },
+        {
+          "man": "layton",
+          "woman": "ellie"
+        },
+        {
+          "man": "nathan",
+          "woman": "christina"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jasmine"
+        },
+        {
+          "man": "anthony",
+          "woman": "jessica"
+        },
+        {
+          "man": "brandon",
+          "woman": "tyler"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "ashley"
+        },
+        {
+          "man": "garland",
+          "woman": "alexandria"
+        },
+        {
+          "man": "john",
+          "woman": "jenni"
+        },
+        {
+          "man": "layton",
+          "woman": "ellie"
+        },
+        {
+          "man": "nathan",
+          "woman": "briana"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 8,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jasmine"
+        },
+        {
+          "man": "anthony",
+          "woman": "alexandria"
+        },
+        {
+          "man": "brandon",
+          "woman": "briana"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "tyler"
+        },
+        {
+          "man": "garland",
+          "woman": "jessica"
+        },
+        {
+          "man": "john",
+          "woman": "jenni"
+        },
+        {
+          "man": "layton",
+          "woman": "ashley"
+        },
+        {
+          "man": "nathan",
+          "woman": "ellie"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    },
+    {
+      "score": 10,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "alex",
+          "woman": "jasmine"
+        },
+        {
+          "man": "anthony",
+          "woman": "alexandria"
+        },
+        {
+          "man": "brandon",
+          "woman": "briana"
+        },
+        {
+          "man": "curtis",
+          "woman": "shelby"
+        },
+        {
+          "man": "dario",
+          "woman": "ashley"
+        },
+        {
+          "man": "garland",
+          "woman": "jessica"
+        },
+        {
+          "man": "john",
+          "woman": "jenni"
+        },
+        {
+          "man": "layton",          
+          "woman": "christina"
+        },
+        {
+          "man": "nathan",
+          "woman": "ellie"
+        },
+        {
+          "man": "pratt",
+          "woman": "paris"
+        }
+      ]
+    }
+  ]
+}

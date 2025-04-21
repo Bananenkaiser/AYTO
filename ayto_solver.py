@@ -113,30 +113,149 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
                 return valid_solutions if valid_solutions else [best_solution]
 
     return valid_solutions if valid_solutions else [best_solution]
+def find_min_ceremonies_for_solution(data, start=5, limit=1, patience=100000):
+    men = data["participants"]["men"]
+    women = data["participants"]["women"]
+    truth_booths = data["truth_booths"]
+    all_ceremonies = data["match_ceremonies"]
+    
+    # Bestimme universal small/large grouping wie besprochen:
+    if len(men) <= len(women):
+        small, large, small_is_men = men, women, True
+    else:
+        small, large, small_is_men = women, men, False
 
-# ------------------------------
-# Ausführung
-# ------------------------------
+    min_size = len(small)
+
+    # Iteriere n von start bis Gesamtzahl der ceremonies
+    for n in range(start, len(all_ceremonies) + 1):
+        ceremonies = all_ceremonies[:n]
+        print(f"Teste mit {n} Ceremonies…")
+
+        valid = []
+        best = None
+        best_score = -1
+        no_improve = 0
+
+        # generiere alle möglichen Pairings
+        for subset in combinations(large, min_size):
+            for perm in permutations(subset):
+                # Baue immer ein man→woman Dict
+                if small_is_men:
+                    pairing = dict(zip(small, perm))
+                else:
+                    pairing = {man: woman for man, woman in zip(perm, small)}
+
+                # Prüfe auf Truth Booths + perfekte Matches
+                if not (is_valid_truth_booth(pairing, truth_booths) and
+                        respects_perfect_matches(pairing, truth_booths)):
+                    continue
+
+                # Prüfe auf alle bisherigen Ceremonies
+                if is_valid_ceremonies(pairing, ceremonies):
+                    valid.append(pairing)
+                    if len(valid) >= limit:
+                        print(f"✅ Lösung gefunden mit {n} Ceremonies!")
+                        return n, valid
+
+                # Optional: Track best Näherung
+                score = evaluate_pairing(pairing, truth_booths, ceremonies)
+                if score > best_score:
+                    best_score, best, no_improve = score, pairing, 0
+                else:
+                    no_improve += 1
+                if no_improve >= patience:
+                    break
+            if valid or no_improve >= patience:
+                break
+
+        print(f"→ Keine perfekte Lösung bei n={n}")
+
+    print("❌ Selbst mit allen Ceremonies keine perfekte Lösung gefunden.")
+    return None, None
+
+def find_unique_solution(data, start=5, patience=1000000):
+    men = data["participants"]["men"]
+    women = data["participants"]["women"]
+    truth_booths = data["truth_booths"]
+    all_ceremonies = data["match_ceremonies"]
+
+    # 1. Small/large-Gruppen bestimmen
+    if len(men) <= len(women):
+        small, large, small_is_men = men, women, True
+    else:
+        small, large, small_is_men = women, men, False
+
+    min_size = len(small)
+
+    # 2. Nacheinander immer eine Ceremony mehr nutzen
+    for n in range(start, len(all_ceremonies) + 1):
+        current_ceremonies = all_ceremonies[:n]
+        valid_solutions = []
+        no_improve = 0
+        best_score = -1
+
+        print(f"Teste mit den ersten {n} Matching Nights…")
+
+        # 3. Alle möglichen Pairings durchprobieren
+        for subset in combinations(large, min_size):
+            for perm in permutations(subset):
+                # immer man→frau dict bauen
+                if small_is_men:
+                    pairing = dict(zip(small, perm))
+                else:
+                    pairing = {man: woman for man, woman in zip(perm, small)}
+
+                # Truth Booths + perfekte Matches prüfen
+                if not (is_valid_truth_booth(pairing, truth_booths) and
+                        respects_perfect_matches(pairing, truth_booths)):
+                    continue
+
+                # Ceremonies prüfen
+                if is_valid_ceremonies(pairing, current_ceremonies):
+                    valid_solutions.append(pairing)
+                    # wenn mehr als 1 Lösung gefunden, abbrechen—wir brauchen noch mehr Info
+                    if len(valid_solutions) > 1:
+                        break
+                else:
+                    # Optional: Track beste Näherung, um früh abzubrechen
+                    score = evaluate_pairing(pairing, truth_booths, current_ceremonies)
+                    if score > best_score:
+                        best_score, no_improve = score, 0
+                    else:
+                        no_improve += 1
+                    if no_improve >= patience:
+                        break
+            if len(valid_solutions) > 1 or no_improve >= patience:
+                break
+
+        # 4. Prüfen, ob genau eine Lösung übrig ist
+        if len(valid_solutions) == 1:
+            print(f"✅ Einzig gültige Lösung bei n={n} gefunden.")
+            return n, valid_solutions[0]
+        else:
+            print(f"→ {len(valid_solutions)} Lösungen bei n={n}. Füge nächste Ceremony hinzu.")
+
+    print("❌ Selbst mit allen Matching Nights konnte nicht auf eine eindeutige Lösung eingegrenzt werden.")
+    return None, None
+
+
+# Beispiel-Aufruf im __main__-Block
 if __name__ == "__main__":
-    path = f".\\src\\vip\\"
+    #path = f".\\src\\vip\\"
+    path = f".\\src\\us\\normal\\"
     #path = f".\\src\\normal\\"
-    season = "Season_3.json"
+    season = "season_2.json"
 
     with open(path + season, "r") as f:
         data = json.load(f)
 
     start_time = time.time()  # Record start time
-
-    solutions = find_valid_ayto_solutions(data, limit=1, patience=5000000)
-
-    end_time = time.time()  # Record end time
-    elapsed_time = end_time - start_time
-
-    if solutions:
-        print("✅ Gültige Lösung gefunden:\n")
-        for man, woman in solutions[0].items():
+    # ... lade data wie gehabt ...
+    n_unique, unique_solution = find_unique_solution(data, start=5)
+    if n_unique:
+        print(f"Du brauchst mindestens {n_unique} Matching Nights, um exakt eine Lösung zu erhalten.")
+        for man, woman in unique_solution.items():
             print(f"{man} ↔ {woman}")
     else:
-        print("❌ Keine gültige Lösung gefunden.")
-
-    print(f"Zeit zum Finden der Lösung: {elapsed_time:.2f} Sekunden")
+        print("Eine eindeutige Lösung ließ sich nicht finden.")
