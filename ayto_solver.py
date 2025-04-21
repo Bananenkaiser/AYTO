@@ -61,16 +61,34 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
     best_score = -1
     iterations_without_improvement = 0
 
+    # 1–2. Finde heraus, welche Gruppe kleiner ist
+    if len(men) <= len(women):
+        small, large = men, women
+        small_is_men = True
+    else:
+        small, large = women, men
+        small_is_men = False
+
     # Determine the smaller group size to handle unmatched participants
-    min_size = min(len(men), len(women))
+    min_size = len(small)
 
-    for selected_women in combinations(women, min_size):
-        for perm in permutations(selected_women):
-            pairing = dict(zip(men[:len(perm)], perm))
+    # 3. Aus der größeren Gruppe alle Teilmengen der Größe min_size wählen
+    for subset in combinations(large, min_size):
+        # 4. Und dann jede Permutation dieser Teilmenge durchprobieren
+        for perm in permutations(subset):
+            # 5. Baue ein Dict man → frau
+            if small_is_men:
+                # small ist men, perm enthält women
+                pairing = dict(zip(small, perm))
+            else:
+                # small ist women, perm enthält men → invertieren
+                pairing = {man: woman for man, woman in zip(perm, small)}
 
-            if is_valid_truth_booth(pairing, truth_booths) and \
-               respects_perfect_matches(pairing, truth_booths) and \
-               is_valid_ceremonies(pairing, ceremonies):
+    
+            # … hier deine Validierungs-Checks …
+            if is_valid_truth_booth(pairing, truth_booths) \
+            and respects_perfect_matches(pairing, truth_booths) \
+            and is_valid_ceremonies(pairing, ceremonies):
                 valid_solutions.append(pairing)
                 if len(valid_solutions) >= limit:
                     return valid_solutions
@@ -100,9 +118,9 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
 # Ausführung
 # ------------------------------
 if __name__ == "__main__":
-    #path = f".\\src\\vip\\"
-    path = f".\\src\\normal\\"
-    season = "Season_6.json"
+    path = f".\\src\\vip\\"
+    #path = f".\\src\\normal\\"
+    season = "Season_3.json"
 
     with open(path + season, "r") as f:
         data = json.load(f)
