@@ -243,9 +243,9 @@ def find_unique_solution(data, start=5, patience=1000000):
 # Beispiel-Aufruf im __main__-Block
 if __name__ == "__main__":
     #path = f".\\src\\vip\\"
-    path = f".\\src\\us\\normal\\"
+    path = f".\\src\\germany\\normal\\"
     #path = f".\\src\\normal\\"
-    season = "season_2.json"
+    season = "season_6.json"
 
     with open(path + season, "r") as f:
         data = json.load(f)

@@ -1,0 +1,497 @@
+{
+  "participants": {
+    "men": [
+      "aleks",
+      "axel",
+      "dominic",
+      "edin",
+      "elisha",
+      "ferhat",
+      "juliano",
+      "kevin",
+      "laurin",
+      "mo",
+      "rene"
+    ],
+    "women": [
+      "aline",
+      "ivana",
+      "kathi",
+      "laura",
+      "luisa",
+      "madleine",
+      "melissa",
+      "michelle",
+      "nadine",
+      "sabrina"
+    ]
+  },
+  "truth_booths": [
+    {
+      "man": "mo",
+      "woman": "ivana",
+      "is_match": false
+    },
+    {
+      "man": "dominic",
+      "woman": "melissa",
+      "is_match": false
+    },
+    {
+      "man": "mo",
+      "woman": "aline",
+      "is_match": true
+    },
+    {
+      "man": "laurin",
+      "woman": "melissa",
+      "is_match": true
+    },
+    {
+      "man": "elisha",
+      "woman": "ivana",
+      "is_match": false
+    },
+    {
+      "man": "rene",
+      "woman": "michelle",
+      "is_match": true
+    },
+    {
+      "man": "edin",
+      "woman": "ivana",
+      "is_match": false
+    },
+    {
+      "man": "axel",
+      "woman": "sabrina",
+      "is_match": false
+    },
+    {
+      "man": "ferhat",
+      "woman": "luisa",
+      "is_match": false
+    },
+    {
+      "man": "kevin",
+      "woman": "kathi",
+      "is_match": true
+    }
+  ],
+  "match_ceremonies": [
+    {
+      "score": 1,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "rene",
+          "woman": "kathi"
+        },
+        {
+          "man": "elisha",
+          "woman": "nadine"
+        },
+        {
+          "man": "ferhat",
+          "woman": "laura"
+        },
+        {
+          "man": "laurin",
+          "woman": "madleine"
+        },
+        {
+          "man": "mo",
+          "woman": "michelle"
+        },
+        {
+          "man": "kevin",
+          "woman": "aline"
+        },
+        {
+          "man": "juliano",
+          "woman": "ivana"
+        },
+        {
+          "man": "dominic",
+          "woman": "melissa"
+        },
+        {
+          "man": "aleks",
+          "woman": "sabrina"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "elisha",
+          "woman": "ivana"
+        },
+        {
+          "man": "kevin",
+          "woman": "kathi"
+        },
+        {
+          "man": "mo",
+          "woman": "michelle"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "aleks",
+          "woman": "nadine"
+        },
+        {
+          "man": "ferhat",
+          "woman": "aline"
+        },
+        {
+          "man": "rene",
+          "woman": "luisa"
+        },
+        {
+          "man": "dominic",
+          "woman": "sabrina"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        },
+        {
+          "man": "axel",
+          "woman": "madleine"
+        }
+      ]
+    },
+    {
+      "score": 3,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "kevin",
+          "woman": "kathi"
+        },
+        {
+          "man": "dominic",
+          "woman": "sabrina"
+        },
+        {
+          "man": "aleks",
+          "woman": "nadine"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "axel",
+          "woman": "madleine"
+        },
+        {
+          "man": "ferhat",
+          "woman": "michelle"
+        },
+        {
+          "man": "rene",
+          "woman": "luisa"
+        },
+        {
+          "man": "elisha",
+          "woman": "ivana"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        }
+      ]
+    },
+    {
+      "score": 2,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "kevin",
+          "woman": "laura"
+        },
+        {
+          "man": "elisha",
+          "woman": "michelle"
+        },
+        {
+          "man": "juliano",
+          "woman": "kathi"
+        },
+        {
+          "man": "dominic",
+          "woman": "nadine"
+        },
+        {
+          "man": "aleks",
+          "woman": "sabrina"
+        },
+        {
+          "man": "axel",
+          "woman": "ivana"
+        },
+        {
+          "man": "ferhat",
+          "woman": "madleine"
+        },
+        {
+          "man": "rene",
+          "woman": "luisa"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "ferhat",
+          "woman": "luisa"
+        },
+        {
+          "man": "elisha",
+          "woman": "sabrina"
+        },
+        {
+          "man": "rene",
+          "woman": "nadine"
+        },
+        {
+          "man": "kevin",
+          "woman": "kathi"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        },
+        {
+          "man": "aleks",
+          "woman": "madleine"
+        },
+        {
+          "man": "axel",
+          "woman": "michelle"
+        },
+        {
+          "man": "dominic",
+          "woman": "ivana"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "rene",
+          "woman": "michelle"
+        },
+        {
+          "man": "elisha",
+          "woman": "nadine"
+        },
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "edin",
+          "woman": "laura"
+        },
+        {
+          "man": "kevin",
+          "woman": "kathi"
+        },
+        {
+          "man": "juliano",
+          "woman": "ivana"
+        },
+        {
+          "man": "aleks",
+          "woman": "madleine"
+        },
+        {
+          "man": "dominic",
+          "woman": "sabrina"
+        }
+      ]
+    },
+    {
+      "score": 5,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "rene",
+          "woman": "michelle"
+        },
+        {
+          "man": "ferhat",
+          "woman": "nadine"
+        },
+        {
+          "man": "elisha",
+          "woman": "kathi"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        },
+        {
+          "man": "dominic",
+          "woman": "sabrina"
+        },
+        {
+          "man": "aleks",
+          "woman": "madleine"
+        },
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "kevin",
+          "woman": "ivana"
+        }
+      ]
+    },
+    {
+      "score": 6,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "rene",
+          "woman": "michelle"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        },
+        {
+          "man": "ferhat",
+          "woman": "nadine"
+        },
+        {
+          "man": "edin",
+          "woman": "madleine"
+        },
+        {
+          "man": "aleks",
+          "woman": "kathi"
+        },
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "kevin",
+          "woman": "ivana"
+        },
+        {
+          "man": "dominic",
+          "woman": "sabrina"
+        }
+      ]
+    },
+    {
+      "score": 7,
+      "blackout": false,
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "rene",
+          "woman": "michelle"
+        },
+        {
+          "man": "elisha",
+          "woman": "sabrina"
+        },
+        {
+          "man": "dominic",
+          "woman": "ivana"
+        },
+        {
+          "man": "kevin",
+          "woman": "madleine"
+        },
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "axel",
+          "woman": "kathi"
+        },
+        {
+          "man": "ferhat",
+          "woman": "nadine"
+        },
+        {
+          "man": "juliano",
+          "woman": "laura"
+        }
+      ]
+    }
+  ]
+}
