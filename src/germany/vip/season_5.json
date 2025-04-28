@@ -1,0 +1,51 @@
+{
+  "participants": {
+    "men": [
+      { "code": "M1",  "name": "Calvin O."},
+      { "code": "M2",  "name": "Calvin S."},
+      { "code": "M3",  "name": "Jonny"},
+      { "code": "M4",  "name": "Kevin"},
+      { "code": "M5",  "name": "Leandro"},
+      { "code": "M6",  "name": "Lennert"},
+      { "code": "M7",  "name": "Nico"},
+      { "code": "M8",  "name": "Olli"},
+      { "code": "M9",  "name": "Rob"},
+      { "code": "M10", "name": "Sidar"},
+      { "code": "M11", "name": "Xander"}
+    ],
+    "women": [
+      { "code": "W1",  "name": "Antonia"},
+      { "code": "W2",  "name": "Ariel"},
+      { "code": "W3",  "name": "Beverly"},
+      { "code": "W4",  "name": "Elli"},
+      { "code": "W5",  "name": "Hati"},
+      { "code": "W6",  "name": "Henna"},
+      { "code": "W7",  "name": "Joanna"},
+      { "code": "W8",  "name": "Nelly"},
+      { "code": "W9",  "name": "Sandra Janina"},
+      { "code": "W10", "name": "Viki"}
+    ]
+  },
+  "truth_booths": [
+    {"man": "M1",      "woman": "W1",      "is_match": false}
+  ],
+  "match_ceremonies": [
+    {
+      "score": 10,
+      "blackout": false,
+      "no_pair:": "M11",
+      "pairs": [
+        {"man": "M1",   "woman": "W1"},
+        {"man": "M2",   "woman": "W2"},
+        {"man": "M3",   "woman": "W3"},
+        {"man": "M4",   "woman": "W4"},
+        {"man": "M5",   "woman": "W5"},
+        {"man": "M6",   "woman": "W6"},
+        {"man": "M7",   "woman": "W7"},
+        {"man": "M8",   "woman": "W8"},
+        {"man": "M9",   "woman": "W9"},
+        {"man": "M10",  "woman": "W10"}
+      ]
+    }
+  ]
+}
