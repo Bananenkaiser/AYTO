@@ -1,1 +1,1 @@
-## Vorhersage der richtigen Paarung der Sendung "Are you the one"
+## Vorhersage der richtigen Paarungen der Sendung "Are you the one"
