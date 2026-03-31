@@ -26,12 +26,19 @@
       "desiree"
     ]
   },
+  "double_matches": [
+    { "man": "william", "women": ["raphaela", "desiree"] }
+  ],
   "truth_booths": [
-    {
-      "man": "mike",
-      "woman": "jessica",
-      "is_match": false
-    }
+    { "man": "mike",     "woman": "jessica",  "is_match": false },
+    { "man": "leon",     "woman": "monami",   "is_match": false },
+    { "man": "andre",    "woman": "raphaela", "is_match": false },
+    { "man": "antonino", "woman": "monami",   "is_match": false },
+    { "man": "max",      "woman": "jessica",  "is_match": false },
+    { "man": "marius",   "woman": "zaira",    "is_match": true  },
+    { "man": "jordi",    "woman": "raphaela", "is_match": false },
+    { "man": "max",      "woman": "kerstin",  "is_match": false },
+    { "man": "dustin",   "woman": "isabelle", "is_match": false }
   ],
   "match_ceremonies": [
     {
@@ -221,6 +228,7 @@
     {
       "score": 2,
       "blackout": false,
+      "no_pair": "marie",
       "pairs": [
         {
           "man": "william",
@@ -247,10 +255,6 @@
           "woman": "kerstin"
         },
         {
-          "man": "",
-          "woman": "marie"
-        },
-        {
           "man": "max",
           "woman": "monami"
         },
@@ -271,6 +275,7 @@
     {
       "score": 4,
       "blackout": false,
+      "no_pair": "monami",
       "pairs": [
         {
           "man": "antonino",
@@ -299,10 +304,6 @@
         {
           "man": "andre",
           "woman": "marie"
-        },
-        {
-          "man": "",
-          "woman": "monami"
         },
         {
           "man": "william",
@@ -321,14 +322,11 @@
     {
       "score": 6,
       "blackout": false,
+      "no_pair": "estelle",
       "pairs": [
         {
           "man": "antonino",
           "woman": "dana"
-        },
-        {
-          "man": "",
-          "woman": "estelle"
         },
         {
           "man": "dustin",
@@ -371,6 +369,7 @@
     {
       "score": 4,
       "blackout": false,
+      "no_pair": "desiree",
       "pairs": [
         {
           "man": "antonino",
@@ -411,16 +410,13 @@
         {
           "man": "marius",
           "woman": "zaira"
-        },
-        {
-          "man": "",
-          "woman": "desiree"
         }
       ]
     },
     {
       "score": 2,
       "blackout": false,
+      "no_pair": "kerstin",
       "pairs": [
         {
           "man": "dustin",
@@ -441,10 +437,6 @@
         {
           "man": "tim",
           "woman": "joelina"
-        },
-        {
-          "man": "",
-          "woman": "kerstin"
         },
         {
           "man": "william",
@@ -471,6 +463,7 @@
     {
       "score": 10,
       "blackout": false,
+      "no_pair": "desiree",
       "pairs": [
         {
           "man": "antonino",
@@ -511,10 +504,6 @@
         {
           "man": "marius",
           "woman": "zaira"
-        },
-        {
-          "man": "",
-          "woman": "desiree"
         }
       ]
     }

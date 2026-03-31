@@ -1,60 +1,58 @@
 {
   "participants": {
     "men": [
-      { "code": "M1",  "name": "Alec"     },
-      { "code": "M2",  "name": "Austin"  },
-      { "code": "M3",  "name": "Chuck"  },
-      { "code": "M4",  "name": "Connor"   },
-      { "code": "M5",  "name": "Devin"    },
-      { "code": "M6",  "name": "Hunter"  },
-      { "code": "M7",  "name": "Mike"     },
-      { "code": "M8",  "name": "Nelson"   },
-      { "code": "M9",  "name": "Tyler"   },
-      { "code": "M10", "name": "Zak"     }
+      "alec",
+      "austin",
+      "chuck",
+      "connor",
+      "devin",
+      "hunter",
+      "mike",
+      "nelson",
+      "tyler",
+      "zak"
     ],
     "women": [
-      { "code": "W1",  "name": "Amanda"     },
-      { "code": "W2",  "name": "Britni"     },
-      { "code": "W3",  "name": "Chelsey"     },
-      { "code": "W4",  "name": "Cheyenne"  },
-      { "code": "W5",  "name": "Hannah"      },
-      { "code": "W6",  "name": "Kayla"    },
-      { "code": "W7",  "name": "Kiki"      },
-      { "code": "W8",  "name": "Melanie"    },
-      { "code": "W9",  "name": "Rashida"      },
-      { "code": "W10", "name": "Stacey"     }
+      "amanda",
+      "britni",
+      "chelsey",
+      "cheyenne",
+      "hannah",
+      "kayla",
+      "kiki",
+      "melanie",
+      "rashida",
+      "stacey"
     ]
   },
-
   "truth_booths": [
-    { "man": "M6",  "woman": "W7",  "is_match": false },
-    { "man": "M5",  "woman": "W7",  "is_match": false },
-    { "man": "M10",  "woman": "W7",  "is_match": false },
-    { "man": "M3", "woman": "W2",  "is_match": false  },
-    { "man": "M4",  "woman": "W3", "is_match": true  },
-    { "man": "M3",  "woman": "W7",  "is_match": false },
-    { "man": "M1",  "woman": "W8",  "is_match": false  },
-    { "man": "M8",  "woman": "W7",  "is_match": false },
-    { "man": "M6",  "woman": "W2",  "is_match": false  },
-    { "man": "M10",  "woman": "W6",  "is_match": true  }
+    { "man": "hunter",  "woman": "kiki",    "is_match": false },
+    { "man": "devin",   "woman": "kiki",    "is_match": false },
+    { "man": "zak",     "woman": "kiki",    "is_match": false },
+    { "man": "chuck",   "woman": "britni",  "is_match": false },
+    { "man": "connor",  "woman": "chelsey", "is_match": true  },
+    { "man": "chuck",   "woman": "kiki",    "is_match": false },
+    { "man": "alec",    "woman": "melanie", "is_match": false },
+    { "man": "nelson",  "woman": "kiki",    "is_match": false },
+    { "man": "hunter",  "woman": "britni",  "is_match": false },
+    { "man": "zak",     "woman": "kayla",   "is_match": true  }
   ],
-  
   "match_ceremonies": [
     {
       "score": 2,
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        { "man": "M1",  "woman": "W10"  },
-        { "man": "M2",  "woman": "W7"  },
-        { "man": "M3",  "woman": "W5"  },
-        { "man": "M4",  "woman": "W3"  },
-        { "man": "M5",  "woman": "W8"  },
-        { "man": "M6",  "woman": "W2"  },
-        { "man": "M7",  "woman": "W1"  },
-        { "man": "M8",  "woman": "W4"  },
-        { "man": "M9",  "woman": "W9" },
-        { "man": "M10", "woman": "W6"  }
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "kiki"     },
+        { "man": "chuck",   "woman": "hannah"   },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "melanie"  },
+        { "man": "hunter",  "woman": "britni"   },
+        { "man": "mike",    "woman": "amanda"   },
+        { "man": "nelson",  "woman": "cheyenne" },
+        { "man": "tyler",   "woman": "rashida"  },
+        { "man": "zak",     "woman": "kayla"    }
       ]
     },
     {
@@ -62,16 +60,16 @@
       "blackout": true,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W3"},
-        {"man": "M2", "woman": "W7"},
-        {"man": "M3", "woman": "W5"},
-        {"man": "M4", "woman": "W6"},
-        {"man": "M5", "woman": "W8"},
-        {"man": "M6", "woman": "W10"},
-        {"man": "M7", "woman": "W1"},
-        {"man": "M8", "woman": "W4"},
-        {"man": "M9", "woman": "W9"},
-        {"man": "M10", "woman": "W2"}
+        { "man": "alec",    "woman": "chelsey"  },
+        { "man": "austin",  "woman": "kiki"     },
+        { "man": "chuck",   "woman": "hannah"   },
+        { "man": "connor",  "woman": "kayla"    },
+        { "man": "devin",   "woman": "melanie"  },
+        { "man": "hunter",  "woman": "stacey"   },
+        { "man": "mike",    "woman": "amanda"   },
+        { "man": "nelson",  "woman": "cheyenne" },
+        { "man": "tyler",   "woman": "rashida"  },
+        { "man": "zak",     "woman": "britni"   }
       ]
     },
     {
@@ -79,16 +77,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W10"},
-        {"man": "M2", "woman": "W1"},
-        {"man": "M3", "woman": "W7"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W9"},
-        {"man": "M6", "woman": "W2"},
-        {"man": "M7", "woman": "W6"},
-        {"man": "M8", "woman": "W8"},
-        {"man": "M9", "woman": "W4"},
-        {"man": "M10", "woman": "W5"}
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "amanda"   },
+        { "man": "chuck",   "woman": "kiki"     },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "rashida"  },
+        { "man": "hunter",  "woman": "britni"   },
+        { "man": "mike",    "woman": "kayla"    },
+        { "man": "nelson",  "woman": "melanie"  },
+        { "man": "tyler",   "woman": "cheyenne" },
+        { "man": "zak",     "woman": "hannah"   }
       ]
     },
     {
@@ -96,16 +94,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W1"},
-        {"man": "M2", "woman": "W10"},
-        {"man": "M3", "woman": "W7"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W5"},
-        {"man": "M6", "woman": "W9"},
-        {"man": "M7", "woman": "W6"},
-        {"man": "M8", "woman": "W2"},
-        {"man": "M9", "woman": "W8"},
-        {"man": "M10", "woman": "W4"}
+        { "man": "alec",    "woman": "amanda"   },
+        { "man": "austin",  "woman": "stacey"   },
+        { "man": "chuck",   "woman": "kiki"     },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "hannah"   },
+        { "man": "hunter",  "woman": "rashida"  },
+        { "man": "mike",    "woman": "kayla"    },
+        { "man": "nelson",  "woman": "britni"   },
+        { "man": "tyler",   "woman": "melanie"  },
+        { "man": "zak",     "woman": "cheyenne" }
       ]
     },
     {
@@ -113,16 +111,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W10"},
-        {"man": "M2", "woman": "W5"},
-        {"man": "M3", "woman": "W7"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W4"},
-        {"man": "M6", "woman": "W8"},
-        {"man": "M7", "woman": "W2"},
-        {"man": "M8", "woman": "W9"},
-        {"man": "M9", "woman": "W1"},
-        {"man": "M10", "woman": "W6"}
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "hannah"   },
+        { "man": "chuck",   "woman": "kiki"     },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "cheyenne" },
+        { "man": "hunter",  "woman": "melanie"  },
+        { "man": "mike",    "woman": "britni"   },
+        { "man": "nelson",  "woman": "rashida"  },
+        { "man": "tyler",   "woman": "amanda"   },
+        { "man": "zak",     "woman": "kayla"    }
       ]
     },
     {
@@ -130,16 +128,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W10"},
-        {"man": "M2", "woman": "W4"},
-        {"man": "M3", "woman": "W1"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W9"},
-        {"man": "M6", "woman": "W2"},
-        {"man": "M7", "woman": "W8"},
-        {"man": "M8", "woman": "W7"},
-        {"man": "M9", "woman": "W5"},
-        {"man": "M10", "woman": "W6"}
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "cheyenne" },
+        { "man": "chuck",   "woman": "amanda"   },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "rashida"  },
+        { "man": "hunter",  "woman": "britni"   },
+        { "man": "mike",    "woman": "melanie"  },
+        { "man": "nelson",  "woman": "kiki"     },
+        { "man": "tyler",   "woman": "hannah"   },
+        { "man": "zak",     "woman": "kayla"    }
       ]
     },
     {
@@ -147,16 +145,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W9"},
-        {"man": "M2", "woman": "W6"},
-        {"man": "M3", "woman": "W8"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W2"},
-        {"man": "M6", "woman": "W1"},
-        {"man": "M7", "woman": "W10"},
-        {"man": "M8", "woman": "W7"},
-        {"man": "M9", "woman": "W4"},
-        {"man": "M10", "woman": "W5"}
+        { "man": "alec",    "woman": "rashida"  },
+        { "man": "austin",  "woman": "kayla"    },
+        { "man": "chuck",   "woman": "melanie"  },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "britni"   },
+        { "man": "hunter",  "woman": "amanda"   },
+        { "man": "mike",    "woman": "stacey"   },
+        { "man": "nelson",  "woman": "kiki"     },
+        { "man": "tyler",   "woman": "cheyenne" },
+        { "man": "zak",     "woman": "hannah"   }
       ]
     },
     {
@@ -164,16 +162,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W10"},
-        {"man": "M2", "woman": "W7"},
-        {"man": "M3", "woman": "W1"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W9"},
-        {"man": "M6", "woman": "W2"},
-        {"man": "M7", "woman": "W8"},
-        {"man": "M8", "woman": "W6"},
-        {"man": "M9", "woman": "W4"},
-        {"man": "M10", "woman": "W5"}
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "kiki"     },
+        { "man": "chuck",   "woman": "amanda"   },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "rashida"  },
+        { "man": "hunter",  "woman": "britni"   },
+        { "man": "mike",    "woman": "melanie"  },
+        { "man": "nelson",  "woman": "kayla"    },
+        { "man": "tyler",   "woman": "cheyenne" },
+        { "man": "zak",     "woman": "hannah"   }
       ]
     },
     {
@@ -181,16 +179,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        {"man": "M1", "woman": "W10"},
-        {"man": "M2", "woman": "W4"},
-        {"man": "M3", "woman": "W9"},
-        {"man": "M4", "woman": "W3"},
-        {"man": "M5", "woman": "W2"},
-        {"man": "M6", "woman": "W6"},
-        {"man": "M7", "woman": "W7"},
-        {"man": "M8", "woman": "W1"},
-        {"man": "M9", "woman": "W8"},
-        {"man": "M10", "woman": "W5"}
+        { "man": "alec",    "woman": "stacey"   },
+        { "man": "austin",  "woman": "cheyenne" },
+        { "man": "chuck",   "woman": "rashida"  },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "britni"   },
+        { "man": "hunter",  "woman": "kayla"    },
+        { "man": "mike",    "woman": "kiki"     },
+        { "man": "nelson",  "woman": "amanda"   },
+        { "man": "tyler",   "woman": "melanie"  },
+        { "man": "zak",     "woman": "hannah"   }
       ]
     },
     {
@@ -198,16 +196,16 @@
       "blackout": false,
       "no_pair": null,
       "pairs": [
-        { "man": "M1",  "woman": "W1"  },
-        { "man": "M2",  "woman": "W2"  },
-        { "man": "M3",  "woman": "W8"  },
-        { "man": "M4",  "woman": "W3" },
-        { "man": "M5",  "woman": "W9"  },
-        { "man": "M6",  "woman": "W5"  },
-        { "man": "M7",  "woman": "W7"  },
-        { "man": "M8",  "woman": "W10" },
-        { "man": "M9",  "woman": "W4" },
-        { "man": "M10", "woman": "W6"  }
+        { "man": "alec",    "woman": "amanda"   },
+        { "man": "austin",  "woman": "britni"   },
+        { "man": "chuck",   "woman": "melanie"  },
+        { "man": "connor",  "woman": "chelsey"  },
+        { "man": "devin",   "woman": "rashida"  },
+        { "man": "hunter",  "woman": "hannah"   },
+        { "man": "mike",    "woman": "kiki"     },
+        { "man": "nelson",  "woman": "stacey"   },
+        { "man": "tyler",   "woman": "cheyenne" },
+        { "man": "zak",     "woman": "kayla"    }
       ]
     }
   ]

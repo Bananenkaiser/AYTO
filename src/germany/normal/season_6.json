@@ -62,7 +62,7 @@
     {
       "score": 2,
       "blackout": false,
-      "no_pair:": "nasti",
+      "no_pair": "nasti",
       "pairs": [
         {
           "man": "dino",
@@ -109,7 +109,7 @@
     {
       "score": 3,
       "blackout": false,
-      "no_pair:": "sophia",
+      "no_pair": "sophia",
       "pairs": [
         {
           "man": "dino",
@@ -156,7 +156,7 @@
     {
       "score": 4,
       "blackout": false,
-      "no_pair:": "ina",
+      "no_pair": "ina",
       "pairs": [
         {
           "man": "dino",
@@ -203,7 +203,7 @@
     {
       "score": 4,
       "blackout": false,
-      "no_pair:": "chiara",
+      "no_pair": "chiara",
       "pairs": [
         {
           "man": "sinan",
@@ -250,7 +250,7 @@
     {
       "score": 4,
       "blackout": false,
-      "no_pair:": "anna",
+      "no_pair": "anna",
       "pairs": [
         {
           "man": "sinan",
@@ -297,7 +297,7 @@
     {
       "score": 5,
       "blackout": false,
-      "no_pair:": "joanna",
+      "no_pair": "joanna",
       "pairs": [
         {
           "man": "dion",
@@ -344,7 +344,7 @@
     {
       "score": 6,
       "blackout": false,
-      "no_pair:": "ina",
+      "no_pair": "ina",
       "pairs": [
         {
           "man": "tano",
@@ -391,7 +391,7 @@
     {
       "score": 5,
       "blackout": false,
-      "no_pair:": "tori",
+      "no_pair": "tori",
       "pairs": [
         {
           "man": "tano",

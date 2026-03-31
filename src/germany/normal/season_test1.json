@@ -26,6 +26,9 @@
       "sabrina"
     ]
   },
+  "double_matches": [
+    { "woman": "madleine", "men": ["edin", "juliano"] }
+  ],
   "truth_booths": [
     {
       "man": "mo",
@@ -219,7 +222,7 @@
     },
     {
       "score": 2,
-      "blackout": false,
+      "blackout": true,
       "pairs": [
         {
           "man": "mo",
@@ -312,6 +315,7 @@
     {
       "score": 5,
       "blackout": false,
+      "no_pair": "ferhat",
       "pairs": [
         {
           "man": "mo",
@@ -358,6 +362,7 @@
     {
       "score": 5,
       "blackout": false,
+      "no_pair": "edin",
       "pairs": [
         {
           "man": "mo",
@@ -404,6 +409,7 @@
     {
       "score": 6,
       "blackout": false,
+      "no_pair": "elisha",
       "pairs": [
         {
           "man": "mo",
@@ -450,6 +456,7 @@
     {
       "score": 7,
       "blackout": false,
+      "no_pair": "edin",
       "pairs": [
         {
           "man": "mo",
@@ -480,7 +487,7 @@
           "woman": "luisa"
         },
         {
-          "man": "axel",
+          "man": "aleks",
           "woman": "kathi"
         },
         {
@@ -490,6 +497,53 @@
         {
           "man": "juliano",
           "woman": "laura"
+        }
+      ]
+    },
+    {
+      "score": 10,
+      "blackout": false,
+      "no_pair": "edin",
+      "pairs": [
+        {
+          "man": "mo",
+          "woman": "aline"
+        },
+        {
+          "man": "laurin",
+          "woman": "melissa"
+        },
+        {
+          "man": "rene",
+          "woman": "michelle"
+        },
+        {
+          "man": "kevin",
+          "woman": "kathi"
+        },
+        {
+          "man": "aleks",
+          "woman": "laura"
+        },
+        {
+          "man": "axel",
+          "woman": "luisa"
+        },
+        {
+          "man": "dominic",
+          "woman": "ivana"
+        },
+        {
+          "man": "elisha",
+          "woman": "sabrina"
+        },
+        {
+          "man": "ferhat",
+          "woman": "nadine"
+        },
+        {
+          "man": "juliano",
+          "woman": "madleine"
         }
       ]
     }

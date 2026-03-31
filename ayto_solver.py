@@ -5,45 +5,108 @@ from itertools import permutations, combinations
 # ------------------------------
 # Hilfsfunktionen
 # ------------------------------
-def is_valid_truth_booth(pairing, truth_booths):
+def build_double_match_dicts(data):
+    """Returns (man_doubles, woman_doubles) for participants with two perfect matches.
+    man_doubles:   {man:   [woman1, woman2]}  — man with multiple female matches
+    woman_doubles: {woman: [man1,   man2  ]}  — woman with multiple male matches
+    """
+    man_doubles = {}
+    woman_doubles = {}
+    for dm in data.get("double_matches", []):
+        if "man" in dm:
+            man_doubles[dm["man"]] = dm["women"]
+        elif "woman" in dm:
+            woman_doubles[dm["woman"]] = dm["men"]
+    return man_doubles, woman_doubles
+
+def is_valid_truth_booth(pairing, truth_booths, man_doubles=None, woman_doubles=None):
+    if man_doubles is None:
+        man_doubles = {}
+    if woman_doubles is None:
+        woman_doubles = {}
     for tb in truth_booths:
         man, woman, is_match = tb["man"], tb["woman"], tb["is_match"]
-        if (man in pairing and pairing[man] == woman) != is_match:
+        if man in man_doubles:
+            actual = woman in man_doubles[man]
+        elif woman in woman_doubles:
+            actual = man in woman_doubles[woman]
+        else:
+            actual = man in pairing and pairing[man] == woman
+        if actual != is_match:
             return False
     return True
 
-def respects_perfect_matches(pairing, truth_booths):
+def respects_perfect_matches(pairing, truth_booths, man_doubles=None, woman_doubles=None):
+    if man_doubles is None:
+        man_doubles = {}
+    if woman_doubles is None:
+        woman_doubles = {}
     for tb in truth_booths:
-        if tb["is_match"]:
-            if pairing.get(tb["man"]) != tb["woman"]:
+        if not tb["is_match"]:
+            continue
+        man, woman = tb["man"], tb["woman"]
+        if man in man_doubles:
+            if pairing.get(man) not in man_doubles[man]:
+                return False
+        elif woman in woman_doubles:
+            # Either of the woman's valid men must be paired with her
+            if not any(pairing.get(m) == woman for m in woman_doubles[woman]):
+                return False
+        else:
+            if pairing.get(man) != woman:
                 return False
     return True
 
-def match_score(pairing, ceremony):
-    expected_pairs = {(p["man"], p["woman"]) for p in ceremony["pairs"]}
+def match_score(pairing, ceremony, man_doubles=None, woman_doubles=None):
+    if man_doubles is None:
+        man_doubles = {}
+    if woman_doubles is None:
+        woman_doubles = {}
     no_pair = ceremony.get("no_pair", None)
-    return sum(
-        1 for man, woman in pairing.items()
-        if (man, woman) in expected_pairs and woman != no_pair
-    )
+    score = 0
+    for p in ceremony["pairs"]:
+        man, woman = p["man"], p["woman"]
+        if woman == no_pair:
+            continue
+        if man in man_doubles:
+            if woman in man_doubles[man]:
+                score += 1
+        elif woman in woman_doubles:
+            if man in woman_doubles[woman]:
+                score += 1
+        else:
+            if pairing.get(man) == woman:
+                score += 1
+    return score
 
-def is_valid_ceremonies(pairing, ceremonies):
+def is_valid_ceremonies(pairing, ceremonies, man_doubles=None, woman_doubles=None):
+    if man_doubles is None:
+        man_doubles = {}
+    if woman_doubles is None:
+        woman_doubles = {}
     for ceremony in ceremonies:
-        expected_score = ceremony["score"]
-        if match_score(pairing, ceremony) != expected_score:
+        if match_score(pairing, ceremony, man_doubles, woman_doubles) != ceremony["score"]:
             return False
     return True
 
-def evaluate_pairing(pairing, truth_booths, ceremonies):
+def evaluate_pairing(pairing, truth_booths, ceremonies, man_doubles=None, woman_doubles=None):
+    if man_doubles is None:
+        man_doubles = {}
+    if woman_doubles is None:
+        woman_doubles = {}
     score = 0
-    # Add points for each truth booth that is respected
     for tb in truth_booths:
         man, woman, is_match = tb["man"], tb["woman"], tb["is_match"]
-        if (man in pairing and pairing[man] == woman) == is_match:
+        if man in man_doubles:
+            actual = woman in man_doubles[man]
+        elif woman in woman_doubles:
+            actual = man in woman_doubles[woman]
+        else:
+            actual = man in pairing and pairing[man] == woman
+        if actual == is_match:
             score += 1
-    # Add points for each ceremony score that matches
     for ceremony in ceremonies:
-        if match_score(pairing, ceremony) == ceremony["score"]:
+        if match_score(pairing, ceremony, man_doubles, woman_doubles) == ceremony["score"]:
             score += 1
     return score
 
@@ -55,6 +118,7 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
     women = data["participants"]["women"]
     truth_booths = data["truth_booths"]
     ceremonies = data["match_ceremonies"]
+    man_doubles, woman_doubles = build_double_match_dicts(data)
 
     valid_solutions = []
     best_solution = None
@@ -86,15 +150,15 @@ def find_valid_ayto_solutions(data, limit=1, patience=1000):
 
     
             # … hier deine Validierungs-Checks …
-            if is_valid_truth_booth(pairing, truth_booths) \
-            and respects_perfect_matches(pairing, truth_booths) \
-            and is_valid_ceremonies(pairing, ceremonies):
+            if is_valid_truth_booth(pairing, truth_booths, man_doubles, woman_doubles) \
+            and respects_perfect_matches(pairing, truth_booths, man_doubles, woman_doubles) \
+            and is_valid_ceremonies(pairing, ceremonies, man_doubles, woman_doubles):
                 valid_solutions.append(pairing)
                 if len(valid_solutions) >= limit:
                     return valid_solutions
 
             # Evaluate the pairing if not fully valid
-            score = evaluate_pairing(pairing, truth_booths, ceremonies)
+            score = evaluate_pairing(pairing, truth_booths, ceremonies, man_doubles, woman_doubles)
             if score > best_score:
                 best_score = score
                 best_solution = pairing
@@ -118,7 +182,8 @@ def find_min_ceremonies_for_solution(data, start=5, limit=1, patience=100000):
     women = data["participants"]["women"]
     truth_booths = data["truth_booths"]
     all_ceremonies = data["match_ceremonies"]
-    
+    man_doubles, woman_doubles = build_double_match_dicts(data)
+
     # Bestimme universal small/large grouping wie besprochen:
     if len(men) <= len(women):
         small, large, small_is_men = men, women, True
@@ -147,19 +212,19 @@ def find_min_ceremonies_for_solution(data, start=5, limit=1, patience=100000):
                     pairing = {man: woman for man, woman in zip(perm, small)}
 
                 # Prüfe auf Truth Booths + perfekte Matches
-                if not (is_valid_truth_booth(pairing, truth_booths) and
-                        respects_perfect_matches(pairing, truth_booths)):
+                if not (is_valid_truth_booth(pairing, truth_booths, man_doubles, woman_doubles) and
+                        respects_perfect_matches(pairing, truth_booths, man_doubles, woman_doubles)):
                     continue
 
                 # Prüfe auf alle bisherigen Ceremonies
-                if is_valid_ceremonies(pairing, ceremonies):
+                if is_valid_ceremonies(pairing, ceremonies, man_doubles, woman_doubles):
                     valid.append(pairing)
                     if len(valid) >= limit:
                         print(f"✅ Lösung gefunden mit {n} Ceremonies!")
                         return n, valid
 
                 # Optional: Track best Näherung
-                score = evaluate_pairing(pairing, truth_booths, ceremonies)
+                score = evaluate_pairing(pairing, truth_booths, ceremonies, man_doubles, woman_doubles)
                 if score > best_score:
                     best_score, best, no_improve = score, pairing, 0
                 else:
@@ -179,6 +244,7 @@ def find_unique_solution(data, start=5, patience=1000000):
     women = data["participants"]["women"]
     truth_booths = data["truth_booths"]
     all_ceremonies = data["match_ceremonies"]
+    man_doubles, woman_doubles = build_double_match_dicts(data)
 
     # 1. Small/large-Gruppen bestimmen
     if len(men) <= len(women):
@@ -207,19 +273,19 @@ def find_unique_solution(data, start=5, patience=1000000):
                     pairing = {man: woman for man, woman in zip(perm, small)}
 
                 # Truth Booths + perfekte Matches prüfen
-                if not (is_valid_truth_booth(pairing, truth_booths) and
-                        respects_perfect_matches(pairing, truth_booths)):
+                if not (is_valid_truth_booth(pairing, truth_booths, man_doubles, woman_doubles) and
+                        respects_perfect_matches(pairing, truth_booths, man_doubles, woman_doubles)):
                     continue
 
                 # Ceremonies prüfen
-                if is_valid_ceremonies(pairing, current_ceremonies):
+                if is_valid_ceremonies(pairing, current_ceremonies, man_doubles, woman_doubles):
                     valid_solutions.append(pairing)
                     # wenn mehr als 1 Lösung gefunden, abbrechen—wir brauchen noch mehr Info
                     if len(valid_solutions) > 1:
                         break
                 else:
                     # Optional: Track beste Näherung, um früh abzubrechen
-                    score = evaluate_pairing(pairing, truth_booths, current_ceremonies)
+                    score = evaluate_pairing(pairing, truth_booths, current_ceremonies, man_doubles, woman_doubles)
                     if score > best_score:
                         best_score, no_improve = score, 0
                     else:

@@ -82,7 +82,7 @@
     {
       "score": 3,
       "blackout": false,
-      "remaining": "pascal",
+      "no_pair": "pascal",
       "pairs": [
         {
           "man": "sasa",
