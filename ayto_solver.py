@@ -1,4 +1,5 @@
 import json
+import sys
 import time
 from itertools import permutations, combinations
 
@@ -306,22 +307,22 @@ def find_unique_solution(data, start=5, patience=1000000):
     return None, None
 
 
-# Beispiel-Aufruf im __main__-Block
 if __name__ == "__main__":
-    #path = f".\\src\\vip\\"
-    path = f".\\src\\germany\\normal\\"
-    #path = f".\\src\\normal\\"
-    season = "season_6.json"
+    if len(sys.argv) < 2:
+        print("Verwendung: python3 ayto_solver.py <pfad-zur-json>")
+        print("Beispiel:   python3 ayto_solver.py src/germany/normal/season_1.json")
+        sys.exit(1)
 
-    with open(path + season, "r") as f:
+    with open(sys.argv[1], "r") as f:
         data = json.load(f)
 
-    start_time = time.time()  # Record start time
-    # ... lade data wie gehabt ...
-    n_unique, unique_solution = find_unique_solution(data, start=5)
+    start_time = time.time()
+    n_unique, unique_solution = find_unique_solution(data, start=1)
+    elapsed = time.time() - start_time
+
     if n_unique:
-        print(f"Du brauchst mindestens {n_unique} Matching Nights, um exakt eine Lösung zu erhalten.")
-        for man, woman in unique_solution.items():
-            print(f"{man} ↔ {woman}")
+        print(f"\n✅ Eindeutige Lösung nach {n_unique} Matching Nights ({elapsed:.1f}s):")
+        for man, woman in sorted(unique_solution.items()):
+            print(f"  {man} ↔ {woman}")
     else:
-        print("Eine eindeutige Lösung ließ sich nicht finden.")
+        print(f"\n❌ Keine eindeutige Lösung gefunden ({elapsed:.1f}s).")
